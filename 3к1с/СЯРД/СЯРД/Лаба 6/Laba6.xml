@@ -1,0 +1,24 @@
+<?xml version='1.0'  encoding='Windows-1251' standalone='no' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>18.0</Version>
+<Cluster>
+<Name>cluster</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name></Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name></Name>
+<Val>0.30000000000000</Val>
+</DBL>
+<String>
+<Name>date string</Name>
+<Val>01.10.2020</Val>
+</String>
+<String>
+<Name>time string</Name>
+<Val>19:31:52</Val>
+</String>
+</Cluster>
+</LVData>
