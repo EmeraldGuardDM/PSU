@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5893" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="5895" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="5891" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="5897" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="5887" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5891" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{8285b066-9ac9-40ab-8d86-27889f55e18d}" type="String"/>
+        <item value="5887" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="sample_video" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="5887" type="Import::Object">
+        <tag value="Video_Countdown_Yellow" type="String"/>
+        <description value="Desc Countdown_Yellow" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Video/Countdown_Yellow.mp4" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/video/Countdown_Yellow.mp4" type="String"/>
+        <kind value="2" type="int32_t"/>
+        <category value="" type="String"/>
+    </RootObject>
+    <RootRef value="5891" type="ObjectRef"/>
+</Archive>

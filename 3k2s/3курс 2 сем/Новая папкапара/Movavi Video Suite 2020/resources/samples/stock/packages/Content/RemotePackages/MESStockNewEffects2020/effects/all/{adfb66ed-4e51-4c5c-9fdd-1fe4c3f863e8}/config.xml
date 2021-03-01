@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="47725" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="47727" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="47723"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="47729" type="Predeclare">
+                    <typeName type="String" value="Effect::GlitchMpeg"/>
+                    <oid type="ObjectRef" value="47722"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="47723" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{68e0b067-3b37-4737-b450-ce10551109b9}"/>
+        <item type="ObjectRef" value="47722"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data type="String" value="category_add_noise"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Effects"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="47722" type="Effect::GlitchMpeg">
+        <BaseOfObject objectId="47722" type="Effect::VideoEffect">
+            <BaseOfObject objectId="47722" type="Effect::Object">
+                <id type="String" value="d32c1f98-2c2c-4152-be12-14987b67e345"/>
+                <tag type="String" value="GlitchMpeg_Low"/>
+                <uniqueId type="String" value="d32c1f98-2c2c-4152-be12-14987b67e345"/>
+                <description type="String" value="Desc GlitchMpeg_Low"/>
+                <intensity binaryData="P9MzMzMzMzM=" type="double" value="0.3"/>
+            </BaseOfObject>
+        </BaseOfObject>
+    </RootObject>
+    <RootRef type="ObjectRef" value="47723"/>
+</Archive>

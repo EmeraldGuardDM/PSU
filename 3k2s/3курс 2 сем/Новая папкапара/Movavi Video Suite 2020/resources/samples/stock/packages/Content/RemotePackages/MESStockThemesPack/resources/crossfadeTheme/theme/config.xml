@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="182">
+        <predeclarations type="Array" size="2">
+            <Item index="1" type="Item">
+                <Data type="Predeclare" objectId="184">
+                    <typeName type="String" value="Collection::PersistentItem::Theme::Object"/>
+                    <oid type="ObjectRef" value="180"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data type="Predeclare" objectId="186">
+                    <typeName type="String" value="Theme::Object"/>
+                    <oid type="ObjectRef" value="173"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Theme::Object" objectId="180">
+        <uniqueId type="String" value="{4e5f9e4e-7876-4930-89c2-1512c9d87555}"/>
+        <item type="ObjectRef" value="173"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item index="1" type="Item">
+                <Data type="String" value="transitions"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Themes"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Theme::Object" objectId="173">
+        <tag type="String" value="Crossfade_theme"/>
+        <transitionsList size="7" type="Array">
+            <Item index="1" type="Item">
+                <Data value="Crossfade" type="String"/>
+            </Item>
+            <Item index="2" type="Item">
+                <Data value="DirectCrossFadeUp" type="String"/>
+            </Item>
+            <Item index="3" type="Item">
+                <Data value="DirectCrossFadeRightUp" type="String"/>
+            </Item>
+            <Item index="4" type="Item">
+                <Data value="DirectCrossFadeRight" type="String"/>
+            </Item>
+            <Item index="5" type="Item">
+                <Data value="DirectCrossFadeDown" type="String"/>
+            </Item>
+            <Item index="6" type="Item">
+                <Data value="DirectCrossFadeLeft" type="String"/>
+            </Item>
+            <Item index="7" type="Item">
+                <Data value="DirectCrossFadeLeftUp" type="String"/>
+            </Item>
+        </transitionsList>
+        <previewVideo type="String" value="crossfade_theme_video"/>
+        <music type="String" value=""/>
+        <startTitle type="String" value="Simple3"/>
+        <finalTitle type="String" value="ModernRibbon"/>
+        <minSceneDuration value="1000" type="int64_t"/>
+        <maxSceneDuration value="4000" type="int64_t"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="180"/>
+</Archive>

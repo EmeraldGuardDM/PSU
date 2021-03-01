@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4352" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="4354" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="4350" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="4356" type="Predeclare">
+                    <typeName value="Transition::Spin" type="String"/>
+                    <oid value="4346" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4350" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{059e36bf-8170-4d5e-857d-ed97edc45f1c}" type="String"/>
+        <item value="4346" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_zoom" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4346" type="Transition::Spin">
+        <BaseOfObject objectId="4346" type="Transition::Object">
+            <id value="7575ca6e-bc13-418c-a1f0-ccfef55be6f7" type="String"/>
+            <tag value="Spin - Out" type="String"/>
+            <description value="Desc Spin - Out" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <mode value="1" type="int32_t"/>
+    </RootObject>
+    <RootRef value="4350" type="ObjectRef"/>
+</Archive>

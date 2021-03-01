@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="130593">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="130595">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="130591"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="130597">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="130587"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="130591">
+        <uniqueId type="String" value="{d04ff3f7-3c89-4d9f-99b7-e2d2a3ff24f0}"/>
+        <item type="ObjectRef" value="130587"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="intros"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="130587">
+        <tag type="String" value="Trivia"/>
+        <description type="String" value="Trivia"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Packages/{c6d3f4da-6c32-4864-abfc-9a29dd53413e}.mpack"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/intro/plus/Trivia.mpack"/>
+        <kind type="int32_t" value="5"/>
+        <category type="String" value="intros"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="130591"/>
+</Archive>

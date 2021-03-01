@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6385" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6387" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6383" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6389" type="Predeclare">
+                    <typeName value="Effect::RetroColors" type="String"/>
+                    <oid value="6379" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6383" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{27b83e1a-cb81-4b3b-97a0-703bc9eb327c}" type="String"/>
+        <item value="6379" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_retro_movie" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6379" type="Effect::RetroColors">
+        <BaseOfObject objectId="6379" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6379" type="Effect::Object">
+                <id value="72984ac5-3af2-4c27-8342-d940507f188f" type="String"/>
+                <tag value="RetroColorsSepia" type="String"/>
+                <uniqueId value="72984ac5-3af2-4c27-8342-d940507f188f" type="String"/>
+                <description value="Desc RetroColorsSepia" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <type value="3" type="int32_t"/>
+    </RootObject>
+    <RootRef value="6383" type="ObjectRef"/>
+</Archive>

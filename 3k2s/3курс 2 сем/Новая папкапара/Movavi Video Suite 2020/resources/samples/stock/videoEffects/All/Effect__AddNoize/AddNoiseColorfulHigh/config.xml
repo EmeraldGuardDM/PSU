@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3119" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="3121" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="3117" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="3123" type="Predeclare">
+                    <typeName value="Effect::AddNoize" type="String"/>
+                    <oid value="3113" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3117" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{32a69a96-668b-4dbe-9ced-c2280ac30934}" type="String"/>
+        <item value="3113" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_add_noise" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3113" type="Effect::AddNoize">
+        <BaseOfObject objectId="3113" type="Effect::VideoEffect">
+            <BaseOfObject objectId="3113" type="Effect::Object">
+                <id value="87824c03-f25f-4043-9cb6-3a90eb27b699" type="String"/>
+                <tag value="AddNoiseColorfulHigh" type="String"/>
+                <uniqueId value="87824c03-f25f-4043-9cb6-3a90eb27b699" type="String"/>
+                <description value="Desc AddNoiseColorfulHigh" type="String"/>
+                <intensity value="0.35" type="double" binaryData="P9ZmZmZmZmY="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <type value="1" type="int32_t"/>
+    </RootObject>
+    <RootRef value="3117" type="ObjectRef"/>
+</Archive>

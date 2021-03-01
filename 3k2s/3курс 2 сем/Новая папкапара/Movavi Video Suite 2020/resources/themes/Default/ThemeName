@@ -1,0 +1,15 @@
+{
+	"themeName" : {
+		"en_US":"Default",
+		"ru_RU":"Default",
+		"de_DE":"Default",
+		"es_ES":"Default",
+		"fr_FR":"Default",
+		"it_IT":"Default",
+		"ja_JP":"Default",
+		"nl_NL":"Default",
+		"pl_PL":"Default",
+		"pt_BR":"Default",
+		"tr_TR":"Default"
+	}
+}

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6431" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6433" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6429" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6435" type="Predeclare">
+                    <typeName value="Effect::Sharpen" type="String"/>
+                    <oid value="6425" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6429" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{b5bdf49a-7ec4-44dd-868f-4083d5e0ac15}" type="String"/>
+        <item value="6425" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_adjust" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6425" type="Effect::Sharpen">
+        <BaseOfObject objectId="6425" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6425" type="Effect::Object">
+                <id value="c60d4a11-b946-49db-ab9d-93898ce04e54" type="String"/>
+                <tag value="SharpenLow" type="String"/>
+                <uniqueId value="c60d4a11-b946-49db-ab9d-93898ce04e54" type="String"/>
+                <description value="Desc SharpenLow" type="String"/>
+                <intensity value="0.4" type="double" binaryData="P9mZmZmZmZo="/>
+            </BaseOfObject>
+        </BaseOfObject>
+    </RootObject>
+    <RootRef value="6429" type="ObjectRef"/>
+</Archive>

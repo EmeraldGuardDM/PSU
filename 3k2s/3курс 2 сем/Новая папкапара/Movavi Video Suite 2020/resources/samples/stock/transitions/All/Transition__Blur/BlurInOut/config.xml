@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="2535" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="2537" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="2533" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="2539" type="Predeclare">
+                    <typeName value="Transition::Blur" type="String"/>
+                    <oid value="2529" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="2533" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{676f0ff2-ca8a-444e-ba95-fad481d4afc1}" type="String"/>
+        <item value="2529" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_crossblur" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="2529" type="Transition::Blur">
+        <BaseOfObject objectId="2529" type="Transition::Object">
+            <id value="aea885b5-7dcd-410e-94d6-31a40edb40a4" type="String"/>
+            <tag value="BlurInOut" type="String"/>
+            <description value="Desc BlurInOut" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <blurType value="2" type="int32_t"/>
+    </RootObject>
+    <RootRef value="2533" type="ObjectRef"/>
+</Archive>

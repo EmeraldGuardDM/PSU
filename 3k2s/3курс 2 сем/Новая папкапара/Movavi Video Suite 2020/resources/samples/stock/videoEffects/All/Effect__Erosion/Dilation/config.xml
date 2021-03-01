@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4545" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4547" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="4543" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4549" type="Predeclare">
+                    <typeName value="Effect::Erosion" type="String"/>
+                    <oid value="4539" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4543" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{0fa0724e-17e4-4175-a2d3-c03ca90f6028}" type="String"/>
+        <item value="4539" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4539" type="Effect::Erosion">
+        <BaseOfObject objectId="4539" type="Effect::VideoEffect">
+            <BaseOfObject objectId="4539" type="Effect::Object">
+                <id value="0429bc71-f252-4a38-9ac2-57689f07ec46" type="String"/>
+                <tag value="Dilation" type="String"/>
+                <uniqueId value="0429bc71-f252-4a38-9ac2-57689f07ec46" type="String"/>
+                <description value="Desc Dilation" type="String"/>
+                <intensity value="0.2" type="double" binaryData="P8mZmZmZmZo="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <type value="1" type="int32_t"/>
+    </RootObject>
+    <RootRef value="4543" type="ObjectRef"/>
+</Archive>

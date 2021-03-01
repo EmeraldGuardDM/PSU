@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6569" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6571" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6567" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6573" type="Predeclare">
+                    <typeName value="Effect::Twirl" type="String"/>
+                    <oid value="6563" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6567" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{2edf4128-20de-42d1-aa99-c97c51a03610}" type="String"/>
+        <item value="6563" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6563" type="Effect::Twirl">
+        <BaseOfObject objectId="6563" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6563" type="Effect::Object">
+                <id value="b6202955-dc7b-4592-9b42-d812d47d240c" type="String"/>
+                <tag value="Twirl" type="String"/>
+                <uniqueId value="b6202955-dc7b-4592-9b42-d812d47d240c" type="String"/>
+                <description value="Desc Twirl" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <startRotate value="0" type="double" binaryData="AAAAAAAAAAA="/>
+        <speedRotate value="0.1" type="double" binaryData="P7mZmZmZmZo="/>
+        <startTwirl value="0" type="double" binaryData="AAAAAAAAAAA="/>
+        <speedTwirl value="0.2" type="double" binaryData="P8mZmZmZmZo="/>
+    </RootObject>
+    <RootRef value="6567" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="130545">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="130547">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="130543"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="130549">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="130539"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="130543">
+        <uniqueId type="String" value="{eac4ec2e-d858-47d4-b300-9d5b8af88bba}"/>
+        <item type="ObjectRef" value="130539"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="intros"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="130539">
+        <tag type="String" value="Neat"/>
+        <description type="String" value="Neat"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Packages/{357bd86f-9e73-4ec7-a18f-f9be369b7849}.mpack"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/intro/plus/Neat.mpack"/>
+        <kind type="int32_t" value="5"/>
+        <category type="String" value="intros"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="130543"/>
+</Archive>

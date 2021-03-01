@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4499" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4501" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="4497" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4503" type="Predeclare">
+                    <typeName value="Effect::Diffuse" type="String"/>
+                    <oid value="4493" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4497" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{0d70bd66-b4c7-4aa5-96ad-30c0f189257c}" type="String"/>
+        <item value="4493" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_blur" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4493" type="Effect::Diffuse">
+        <BaseOfObject objectId="4493" type="Effect::VideoEffect">
+            <BaseOfObject objectId="4493" type="Effect::Object">
+                <id value="43ce922f-5666-492c-ad2d-b08da41e3b26" type="String"/>
+                <tag value="DiffuseHigh" type="String"/>
+                <uniqueId value="43ce922f-5666-492c-ad2d-b08da41e3b26" type="String"/>
+                <description value="Desc DiffuseHigh" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <level value="0.08" type="double" binaryData="P7R64UeuFHs="/>
+        <prob value="0.2" type="double" binaryData="P8mZmZmZmZo="/>
+    </RootObject>
+    <RootRef value="4497" type="ObjectRef"/>
+</Archive>

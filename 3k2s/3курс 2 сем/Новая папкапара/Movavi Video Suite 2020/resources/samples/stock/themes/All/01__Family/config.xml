@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="346">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="348">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="344" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="350">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="343" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="344">
+        <uniqueId value="{4e154700-3d06-4428-b37c-dfb37fc0df4e}" type="String"/>
+        <item value="343" type="ObjectRef"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data value="" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Themes" type="String"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="343">
+        <tag value="Family2" type="String"/>
+        <description value="For calm family videos Upbeat music" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Packages/familytheme2.mpack" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/themes2/Family_theme2.mpack" type="String"/>
+        <kind value="5" type="int32_t"/>
+        <category value="CATEGORY_CALM" type="String"/>
+    </RootObject>
+    <RootRef value="344" type="ObjectRef"/>
+</Archive>

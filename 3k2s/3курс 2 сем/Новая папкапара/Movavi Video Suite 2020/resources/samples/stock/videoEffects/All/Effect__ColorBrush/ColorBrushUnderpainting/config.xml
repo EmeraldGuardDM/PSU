@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3487" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="3489" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="3485" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="3491" type="Predeclare">
+                    <typeName value="Effect::ColorBrush" type="String"/>
+                    <oid value="3481" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3485" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{f0ea95a7-d010-476e-8a5e-8ec8d24cc580}" type="String"/>
+        <item value="3481" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3481" type="Effect::ColorBrush">
+        <BaseOfObject objectId="3481" type="Effect::VideoEffect">
+            <BaseOfObject objectId="3481" type="Effect::Object">
+                <id value="342d639d-1182-4b70-b071-1831d484cb85" type="String"/>
+                <tag value="ColorBrushUnderpainting" type="String"/>
+                <uniqueId value="342d639d-1182-4b70-b071-1831d484cb85" type="String"/>
+                <description value="Desc ColorBrushUnderpainting" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <pType value="1" type="int32_t"/>
+        <angle value="45" type="int32_t"/>
+        <size value="45" type="int32_t"/>
+        <rough value="30" type="int32_t"/>
+    </RootObject>
+    <RootRef value="3485" type="ObjectRef"/>
+</Archive>

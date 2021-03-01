@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3340" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="3342" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="3338" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="3344" type="Predeclare">
+                    <typeName value="Transition::Pinwheel" type="String"/>
+                    <oid value="3334" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3338" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{78b19cc7-2d02-42ee-9410-ccad2e25afc2}" type="String"/>
+        <item value="3334" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_warp" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3334" type="Transition::Pinwheel">
+        <BaseOfObject objectId="3334" type="Transition::Object">
+            <id value="4404244b-0335-4c0d-b4c2-66c141c8c5cf" type="String"/>
+            <tag value="Pinwheel - 5" type="String"/>
+            <description value="Desc Pinwheel - 5" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <num value="5" type="int32_t"/>
+        <freq value="50" type="int32_t"/>
+        <ampl value="50" type="int32_t"/>
+        <smooth value="100" type="int32_t"/>
+    </RootObject>
+    <RootRef value="3338" type="ObjectRef"/>
+</Archive>

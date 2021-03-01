@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6224" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6226" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6222" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6228" type="Predeclare">
+                    <typeName value="Effect::PopArt" type="String"/>
+                    <oid value="6218" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6222" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{0041bd4c-f9bb-4bc6-b7fc-bc4d1a2acc1e}" type="String"/>
+        <item value="6218" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_retro_movie" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6218" type="Effect::PopArt">
+        <BaseOfObject objectId="6218" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6218" type="Effect::Object">
+                <id value="2647e4b8-5689-4bf1-b45f-7f4b3b35e49b" type="String"/>
+                <tag value="PopArt9Tiles" type="String"/>
+                <uniqueId value="2647e4b8-5689-4bf1-b45f-7f4b3b35e49b" type="String"/>
+                <description value="Desc PopArt9Tiles" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset value="1" type="int32_t"/>
+    </RootObject>
+    <RootRef value="6222" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6546" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6548" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6544" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6550" type="Predeclare">
+                    <typeName value="Effect::TiltShift" type="String"/>
+                    <oid value="6540" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6544" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{8df17152-a766-4a6b-a990-ebdc495a122a}" type="String"/>
+        <item value="6540" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_blur" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6540" type="Effect::TiltShift">
+        <BaseOfObject objectId="6540" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6540" type="Effect::Object">
+                <id value="bea0efc7-dbab-44fd-ae07-6c4801ade623" type="String"/>
+                <tag value="TiltShiftUpper" type="String"/>
+                <uniqueId value="bea0efc7-dbab-44fd-ae07-6c4801ade623" type="String"/>
+                <description value="Desc TiltShiftUpper" type="String"/>
+                <intensity value="0.2" type="double" binaryData="P8mZmZmZmZo="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <a1 value="0" type="double" binaryData="AAAAAAAAAAA="/>
+        <b1 value="1" type="double" binaryData="P/AAAAAAAAA="/>
+        <c1 value="0.1" type="double" binaryData="P7mZmZmZmZo="/>
+        <a2 value="0" type="double" binaryData="AAAAAAAAAAA="/>
+        <b2 value="1" type="double" binaryData="P/AAAAAAAAA="/>
+        <c2 value="-0.43" type="double" binaryData="v9uFHrhR64U="/>
+        <smns value="0.1" type="double" binaryData="P7mZmZmZmZo="/>
+    </RootObject>
+    <RootRef value="6544" type="ObjectRef"/>
+</Archive>

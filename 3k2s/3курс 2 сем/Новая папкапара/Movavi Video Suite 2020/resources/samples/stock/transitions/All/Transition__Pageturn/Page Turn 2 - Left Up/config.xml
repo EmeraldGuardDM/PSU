@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3248" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="3250" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="3246" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="3252" type="Predeclare">
+                    <typeName value="Transition::Pageturn" type="String"/>
+                    <oid value="3242" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3246" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{42758c76-e68b-47e6-8e60-5fb7ba3f8fe2}" type="String"/>
+        <item value="3242" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3242" type="Transition::Pageturn">
+        <BaseOfObject objectId="3242" type="Transition::Object">
+            <id value="2297d6ab-7f31-4171-81b0-0e6025310304" type="String"/>
+            <tag value="Page Turn 2 - Left Up" type="String"/>
+            <description value="Desc Page Turn 2 - Left Up" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <dir value="0" type="int32_t"/>
+        <type value="1" type="int32_t"/>
+    </RootObject>
+    <RootRef value="3246" type="ObjectRef"/>
+</Archive>

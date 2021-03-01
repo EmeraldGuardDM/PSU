@@ -1,0 +1,28 @@
+(defmethod **((?a STRING (= (str-length ?a) (str-length ?b))) (?b STRING ) (?c INTEGER) (?d INTEGER))
+	(bind ?result1 "")
+	(bind ?result2 "")
+	(loop-for-count (?x 1 (str-length ?a)) do
+	(bind ?symb (sub-string ?x ?x ?a))
+	(if (eq (sub-string ?x ?x ?a) (sub-string ?x ?x ?b)) then
+	(bind ?str (sub-string ?x ?x ?a))
+	(bind ?str2 "")
+	(loop-for-count (?i 1 ?c)
+	(bind ?str2 (str-cat ?str2 ?str)))
+	(bind ?result1 (str-cat ?result1 ?str2))
+	)
+	else
+		(bind ?result1 (str-cat ?result1 ?symb)
+	)
+	(bind ?symbb (sub-string ?x ?x ?b))
+	(if (eq (sub-string ?x ?x ?b) (sub-string ?x ?x ?a)) then
+	(bind ?strb (sub-string ?x ?x ?b))
+	(bind ?str2b "")
+	(loop-for-count (?i 1 ?d)
+	(bind ?str2b (str-cat ?str2b ?strb)))
+	(bind ?result2 (str-cat ?result2 ?str2b))
+	)
+	else
+		(bind ?result2 (str-cat ?result2 ?symbb)
+	))
+	(printout t ?result1 crlf)
+	(printout t ?result2 crlf))

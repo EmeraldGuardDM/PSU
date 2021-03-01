@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3961" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="3963" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="3959" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="3965" type="Predeclare">
+                    <typeName value="Transition::Shatter" type="String"/>
+                    <oid value="3955" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3959" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{1cd596b0-c7ac-47f7-97f9-0ed6e51bcbde}" type="String"/>
+        <item value="3955" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3955" type="Transition::Shatter">
+        <BaseOfObject objectId="3955" type="Transition::Object">
+            <id value="0421d02c-2693-46f1-874f-f54a76becef1" type="String"/>
+            <tag value="Shatter - Medium Blocks" type="String"/>
+            <description value="Desc Shatter - Medium Blocks" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <size value="4" type="uint32_t"/>
+        <dir value="0" type="int32_t"/>
+    </RootObject>
+    <RootRef value="3959" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3639" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="3641" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="3637" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="3643" type="Predeclare">
+                    <typeName value="Transition::Ripple" type="String"/>
+                    <oid value="3633" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3637" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{e7a2d169-35be-4b9a-b50e-fd5dbea7d9b4}" type="String"/>
+        <item value="3633" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_ripple" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3633" type="Transition::Ripple">
+        <BaseOfObject objectId="3633" type="Transition::Object">
+            <id value="b923cbf1-47d2-42af-a470-286ac05b9887" type="String"/>
+            <tag value="Ripple2WavesFromCenter" type="String"/>
+            <description value="Desc Ripple2WavesFromCenter" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <amplitude value="32" type="uint32_t"/>
+        <period value="7" type="uint32_t"/>
+        <waveCount value="2" type="uint32_t"/>
+        <center value="4" type="int32_t"/>
+        <mode value="0" type="int32_t"/>
+    </RootObject>
+    <RootRef value="3637" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="168323">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="168325">
+                    <typeName type="String" value="Collection::PersistentItem::Transition::Object"/>
+                    <oid type="ObjectRef" value="168321"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="168327">
+                    <typeName type="String" value="Transition::Parallax"/>
+                    <oid type="ObjectRef" value="168320"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Transition::Object" objectId="168321">
+        <uniqueId type="String" value="{65a9488b-900b-48e3-9581-2813eaab8c53}"/>
+        <item type="ObjectRef" value="168320"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_parallax"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Transitions"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject type="Transition::Parallax" objectId="168320">
+        <BaseOfObject type="Transition::Object" objectId="168320">
+            <id type="String" value="9db884b5-c81e-49b9-a7f0-5ee38ef30770"/>
+            <tag type="String" value="Parallax_7"/>
+            <description type="String" value="Desc Parallax_7"/>
+            <strategy type="int32_t" value="0"/>
+            <type type="int32_t" value="0"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <speedCoefUp binaryData="P7mZmZmZmZo=" type="double" value="0.1"/>
+        <speedCoefMid binaryData="P9MzMzMzMzM=" type="double" value="0.3"/>
+        <speedCoefDown binaryData="P+AAAAAAAAA=" type="double" value="0.5"/>
+        <cropUp type="bool" value="1"/>
+        <cropDown type="bool" value="1"/>
+        <maxMotionBlurScale binaryData="P+AAAAAAAAA=" type="double" value="0.5"/>
+        <maxLensZoom binaryData="v9MzMzMzMzM=" type="double" value="-0.3"/>
+        <maxLensDistortion binaryData="v8mZmZmZmZo=" type="double" value="-0.2"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="168321"/>
+</Archive>

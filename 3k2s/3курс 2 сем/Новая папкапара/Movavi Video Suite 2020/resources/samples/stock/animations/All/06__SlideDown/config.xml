@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="110633">
+        <predeclarations type="Array" size="11">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="110635">
+                    <typeName type="String" value="Collection::PersistentItem::Envelope::TransformationPreset"/>
+                    <oid type="ObjectRef" value="110631"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="110637">
+                    <typeName type="String" value="Envelope::TransformationPreset"/>
+                    <oid type="ObjectRef" value="110605"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="110606"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="3">
+                <Data type="Predeclare" objectId="110639">
+                    <typeName type="String" value="TransformationEnvelope"/>
+                    <oid type="ObjectRef" value="110606"/>
+                    <poid type="ObjectRef" value="110605"/>
+                    <refs type="Array" size="3">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="110607"/>
+                        </Item>
+                        <Item type="Item" index="2">
+                            <Data type="ObjectRef" value="110623"/>
+                        </Item>
+                        <Item type="Item" index="3">
+                            <Data type="ObjectRef" value="110628"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="4">
+                <Data type="Predeclare" objectId="110641">
+                    <typeName type="String" value="Transformation::Object"/>
+                    <oid type="ObjectRef" value="110607"/>
+                    <poid type="ObjectRef" value="110606"/>
+                    <refs type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="110608"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="5">
+                <Data type="Predeclare" objectId="110643">
+                    <typeName type="String" value="Types::Transform"/>
+                    <oid type="ObjectRef" value="110608"/>
+                    <poid type="ObjectRef" value="110607"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="6">
+                <Data type="Predeclare" objectId="110647">
+                    <typeName type="String" value="AnimationTransformationKeyValue"/>
+                    <oid type="ObjectRef" value="110623"/>
+                    <poid type="ObjectRef" value="110606"/>
+                    <refs type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="110624"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="7">
+                <Data type="Predeclare" objectId="110649">
+                    <typeName type="String" value="Transformation::Object"/>
+                    <oid type="ObjectRef" value="110624"/>
+                    <poid type="ObjectRef" value="110623"/>
+                    <refs type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="110625"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="8">
+                <Data type="Predeclare" objectId="110651">
+                    <typeName type="String" value="Types::Transform"/>
+                    <oid type="ObjectRef" value="110625"/>
+                    <poid type="ObjectRef" value="110624"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="9">
+                <Data type="Predeclare" objectId="110656">
+                    <typeName type="String" value="AnimationTransformationKeyValue"/>
+                    <oid type="ObjectRef" value="110628"/>
+                    <poid type="ObjectRef" value="110606"/>
+                    <refs type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="110629"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="10">
+                <Data type="Predeclare" objectId="110658">
+                    <typeName type="String" value="Transformation::Object"/>
+                    <oid type="ObjectRef" value="110629"/>
+                    <poid type="ObjectRef" value="110628"/>
+                    <refs type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="110630"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="11">
+                <Data type="Predeclare" objectId="110660">
+                    <typeName type="String" value="Types::Transform"/>
+                    <oid type="ObjectRef" value="110630"/>
+                    <poid type="ObjectRef" value="110629"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Envelope::TransformationPreset" objectId="110631">
+        <uniqueId type="String" value="{7ffd679a-1bf8-47d4-b69a-80094a6f4f47}"/>
+        <item type="ObjectRef" value="110605"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="category_appearance"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Animations"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Envelope::TransformationPreset" objectId="110605">
+        <type type="int32_t" value="0"/>
+        <tag type="String" value="up_to_center"/>
+        <description type="String" value=""/>
+        <sourceDuration type="int64_t" value="1000"/>
+        <transformation type="TransformationEnvelope" objectId="110606">
+            <defaultValue type="Transformation::Object" objectId="110607">
+                <matrix type="Types::Transform" objectId="110608">
+                    <m11 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                    <m12 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                    <m13 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                    <m21 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                    <m22 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                    <m23 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                    <m31 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                    <m32 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                    <m33 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                </matrix>
+                <opacity type="int32_t" value="100"/>
+            </defaultValue>
+            <keyValues type="Array" size="2">
+                <Item type="Item" index="1">
+                    <Data type="AnimationTransformationKeyValue" objectId="110623">
+                        <step type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                        <value type="Transformation::Object" objectId="110624">
+                            <matrix type="Types::Transform" objectId="110625">
+                                <m11 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                                <m12 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m13 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m21 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m22 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                                <m23 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m31 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m32 type="double" value="-1.00111" binaryData="v/AEjRWeJq8="/>
+                                <m33 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                            </matrix>
+                            <opacity type="int32_t" value="100"/>
+                        </value>
+                    </Data>
+                </Item>
+                <Item type="Item" index="2">
+                    <Data type="AnimationTransformationKeyValue" objectId="110628">
+                        <step type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                        <value type="Transformation::Object" objectId="110629">
+                            <matrix type="Types::Transform" objectId="110630">
+                                <m11 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                                <m12 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m13 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m21 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m22 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                                <m23 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m31 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m32 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+                                <m33 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+                            </matrix>
+                            <opacity type="int32_t" value="100"/>
+                        </value>
+                    </Data>
+                </Item>
+            </keyValues>
+        </transformation>
+    </RootObject>
+    <RootRef type="ObjectRef" value="110631"/>
+</Archive>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3156" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="3158" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="3154" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="3160" type="Predeclare">
+                    <typeName value="Transition::OrigamiPleats" type="String"/>
+                    <oid value="3150" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3154" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{36a4aac9-7f1b-4bd4-9ae9-0d9eac8b8ad9}" type="String"/>
+        <item value="3150" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_geometric" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3150" type="Transition::OrigamiPleats">
+        <BaseOfObject objectId="3150" type="Transition::Object">
+            <id value="eccf26ce-0804-42e4-9de8-a4c983b6a0ae" type="String"/>
+            <tag value="Origami4PleatsRight" type="String"/>
+            <description value="Desc Origami4PleatsRight" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <direction value="1" type="int32_t"/>
+        <num value="4" type="uint32_t"/>
+    </RootObject>
+    <RootRef value="3154" type="ObjectRef"/>
+</Archive>

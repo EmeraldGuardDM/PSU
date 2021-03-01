@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4743" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4745" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="4741" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4747" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="4737" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4741" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{360c2678-cb00-4410-ad20-1ebd95f5faf0}" type="String"/>
+        <item value="4737" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="sample_music" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4737" type="Import::Object">
+        <tag value="Music_Eight_Bit_Adventure" type="String"/>
+        <description value="Desc Eight_Bit_Adventure" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Music Library/Eight_Bit_Adventure.mp3" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/music_library/Eight_Bit_Adventure.mp3" type="String"/>
+        <kind value="1" type="int32_t"/>
+        <category value="" type="String"/>
+    </RootObject>
+    <RootRef value="4741" type="ObjectRef"/>
+</Archive>

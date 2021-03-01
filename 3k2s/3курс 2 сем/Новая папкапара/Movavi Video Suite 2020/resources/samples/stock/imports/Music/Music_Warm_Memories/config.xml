@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5594" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="5596" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="5592" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="5598" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="5588" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5592" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{0e0cdc0e-503b-4af5-a1cd-858e32fd5678}" type="String"/>
+        <item value="5588" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="sample_music" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="5588" type="Import::Object">
+        <tag value="Music_Warm_Memories" type="String"/>
+        <description value="Desc Warm_Memories" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Music Library/Warm_Memories.mp3" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/music_library/Warm_Memories.mp3" type="String"/>
+        <kind value="1" type="int32_t"/>
+        <category value="CATEGORY_CALM" type="String"/>
+    </RootObject>
+    <RootRef value="5592" type="ObjectRef"/>
+</Archive>

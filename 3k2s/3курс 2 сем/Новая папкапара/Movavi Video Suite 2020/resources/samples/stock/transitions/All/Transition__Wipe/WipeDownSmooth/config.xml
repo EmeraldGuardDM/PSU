@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4697" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="4699" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="4695" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="4701" type="Predeclare">
+                    <typeName value="Transition::Wipe" type="String"/>
+                    <oid value="4691" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4695" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{dbcf5ff2-90cc-4c58-ac70-355151c0a333}" type="String"/>
+        <item value="4691" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_wipe" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4691" type="Transition::Wipe">
+        <BaseOfObject objectId="4691" type="Transition::Object">
+            <id value="f4e36db1-2bd7-4dd5-9038-603cb13efe14" type="String"/>
+            <tag value="WipeDownSmooth" type="String"/>
+            <description value="Desc WipeDownSmooth" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <direction value="1" type="int32_t"/>
+        <smoothWidth value="0" type="int32_t"/>
+    </RootObject>
+    <RootRef value="4695" type="ObjectRef"/>
+</Archive>

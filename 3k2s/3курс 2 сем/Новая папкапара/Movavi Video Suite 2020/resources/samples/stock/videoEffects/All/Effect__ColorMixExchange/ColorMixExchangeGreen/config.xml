@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4384" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4386" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="4382" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4388" type="Predeclare">
+                    <typeName value="Effect::ColorMixExchange" type="String"/>
+                    <oid value="4378" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4382" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{e3d24c30-34ca-425a-bb31-ec8287dacd36}" type="String"/>
+        <item value="4378" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4378" type="Effect::ColorMixExchange">
+        <BaseOfObject objectId="4378" type="Effect::VideoEffect">
+            <BaseOfObject objectId="4378" type="Effect::Object">
+                <id value="72edac99-e300-45d8-8e57-0f7bfef3bf54" type="String"/>
+                <tag value="ColorMixExchangeGreen" type="String"/>
+                <uniqueId value="72edac99-e300-45d8-8e57-0f7bfef3bf54" type="String"/>
+                <description value="Desc ColorMixExchangeGreen" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <color value="65280" type="uint32_t"/>
+    </RootObject>
+    <RootRef value="4382" type="ObjectRef"/>
+</Archive>

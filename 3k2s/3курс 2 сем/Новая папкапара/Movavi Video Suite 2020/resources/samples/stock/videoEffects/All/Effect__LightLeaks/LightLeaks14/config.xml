@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5626" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="5628" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="5624" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="5630" type="Predeclare">
+                    <typeName value="Effect::LightLeaks" type="String"/>
+                    <oid value="5620" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5624" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{37eadd31-89a2-447f-a35b-04d319ff2ece}" type="String"/>
+        <item value="5620" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_light_leaks" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="5620" type="Effect::LightLeaks">
+        <BaseOfObject objectId="5620" type="Effect::VideoEffect">
+            <BaseOfObject objectId="5620" type="Effect::Object">
+                <id value="f0c18b60-b891-453d-b80e-dedd20f349fb" type="String"/>
+                <tag value="LightLeaks14" type="String"/>
+                <uniqueId value="f0c18b60-b891-453d-b80e-dedd20f349fb" type="String"/>
+                <description value="Desc LightLeaks14" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <Presets value="13" type="int32_t"/>
+    </RootObject>
+    <RootRef value="5624" type="ObjectRef"/>
+</Archive>

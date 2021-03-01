@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5189" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="5191" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="5187" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="5193" type="Predeclare">
+                    <typeName value="Effect::FlyingObjects" type="String"/>
+                    <oid value="5183" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5187" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{6e4466b2-9be9-4734-a0aa-bbed7dd246dc}" type="String"/>
+        <item value="5183" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_flying_objects" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="5183" type="Effect::FlyingObjects">
+        <BaseOfObject objectId="5183" type="Effect::VideoEffect">
+            <BaseOfObject objectId="5183" type="Effect::Object">
+                <id value="d3d9f297-74da-41d6-a955-8109cbed0020" type="String"/>
+                <tag value="FlyingObjectsWinter2" type="String"/>
+                <uniqueId value="d3d9f297-74da-41d6-a955-8109cbed0020" type="String"/>
+                <description value="Desc FlyingObjectsWinter2" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset value="15" type="int32_t"/>
+    </RootObject>
+    <RootRef value="5187" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6293" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6295" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6291" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6297" type="Predeclare">
+                    <typeName value="Effect::RetroArtefacts" type="String"/>
+                    <oid value="6287" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6291" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{bc467775-c3ca-4a17-940a-6aa091618c29}" type="String"/>
+        <item value="6287" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_retro_movie" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6287" type="Effect::RetroArtefacts">
+        <BaseOfObject objectId="6287" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6287" type="Effect::Object">
+                <id value="e8400386-05fe-428e-97e6-5a52eaed904c" type="String"/>
+                <tag value="RetroArtefactsLow" type="String"/>
+                <uniqueId value="e8400386-05fe-428e-97e6-5a52eaed904c" type="String"/>
+                <description value="Desc RetroArtefactsLow" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <shake value="0" type="bool"/>
+        <vignetting value="0" type="bool"/>
+        <grain value="3" type="uint32_t"/>
+        <scratches value="5" type="uint32_t"/>
+        <rollerTrack value="30" type="uint32_t"/>
+    </RootObject>
+    <RootRef value="6291" type="ObjectRef"/>
+</Archive>

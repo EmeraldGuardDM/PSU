@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4536" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4538" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="4534" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4540" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="4530" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4534" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{75b97aa2-562e-4f8e-8a99-69f7721273a8}" type="String"/>
+        <item value="4530" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="sample_music" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4530" type="Import::Object">
+        <tag value="Music_Carefree_Days" type="String"/>
+        <description value="Desc Carefree_Days" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Music Library/Carefree_Days.mp3" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/music_library/Carefree_Days.mp3" type="String"/>
+        <kind value="1" type="int32_t"/>
+        <category value="CATEGORY_UPBEAT" type="String"/>
+    </RootObject>
+    <RootRef value="4534" type="ObjectRef"/>
+</Archive>

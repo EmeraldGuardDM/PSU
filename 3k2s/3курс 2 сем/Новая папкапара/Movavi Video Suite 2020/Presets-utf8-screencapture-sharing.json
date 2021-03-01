@@ -1,0 +1,353 @@
+{
+    "schemaVersion": 0,
+    "presets": [
+        {
+            "container": {
+                "container": "mp4",
+                "progressiveRead": false,
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 16,
+                    "limits_subtitle": 16,
+                    "limits_other": 16
+                },
+                "maxPayloadSize": 1460,
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "original",
+                                "resizeMode": "letterbox",
+                                "scaleFactor": 1.00000,
+                                "width": 800,
+                                "height": 600,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "main",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_AAC",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            },
+            "name": "original",
+            "id": "youtube___original_size",
+            "tags": {
+                "format_online_video_for_youtube": {},
+                "default_preset_for_youtube": {}
+            }
+        },
+        {
+            "container": {
+                "container": "mp4",
+                "progressiveRead": false,
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 16,
+                    "limits_subtitle": 16,
+                    "limits_other": 16
+                },
+                "maxPayloadSize": 1460,
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "custom",
+                                "resizeMode": "smartFit",
+                                "scaleFactor": 1.00000,
+                                "width": 854,
+                                "height": 480,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 2967000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "main",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_AAC",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 192000,
+                            "codec.options.encode": {
+                                "profile": "aac_low"
+                            }
+                        }
+                    }
+                }
+            },
+            "name": "480p",
+            "id": "youtube___480p_sharing",
+            "tags": {
+                "format_online_video_for_youtube": {}
+            }
+        },
+        {
+            "container": {
+                "container": "mp4",
+                "progressiveRead": false,
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 16,
+                    "limits_subtitle": 16,
+                    "limits_other": 16
+                },
+                "maxPayloadSize": 1460,
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "custom",
+                                "resizeMode": "smartFit",
+                                "scaleFactor": 1.00000,
+                                "width": 1920,
+                                "height": 1080,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 9000000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "high",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_AAC",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 256000,
+                            "codec.options.encode": {
+                                "profile": "aac_low"
+                            }
+                        }
+                    }
+                }
+            },
+            "name": "1080p HD",
+            "id": "youtube___hd_1080p_sharing",
+            "tags": {
+                "format_online_video_for_youtube": {}
+            }
+        },
+        {
+            "container": {
+                "container": "mp4",
+                "progressiveRead": false,
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 16,
+                    "limits_subtitle": 16,
+                    "limits_other": 16
+                },
+                "maxPayloadSize": 1460,
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "custom",
+                                "resizeMode": "smartFit",
+                                "scaleFactor": 1.00000,
+                                "width": 1280,
+                                "height": 720,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 5842000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "main",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_AAC",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 224000,
+                            "codec.options.encode": {
+                                "profile": "aac_low"
+                            }
+                        }
+                    }
+                }
+            },
+            "name": "720p HD",
+            "id": "youtube___hd_720p_sharing",
+            "tags": {
+                "format_online_video_for_youtube": {}
+            }
+        },
+        {
+            "container": {
+                "container": "mp4",
+                "progressiveRead": false,
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 16,
+                    "limits_subtitle": 16,
+                    "limits_other": 16
+                },
+                "maxPayloadSize": 1460,
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "custom",
+                                "resizeMode": "smartFit",
+                                "scaleFactor": 1.00000,
+                                "width": 640,
+                                "height": 360,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 1690000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "main",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_AAC",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 160000,
+                            "codec.options.encode": {
+                                "profile": "aac_low"
+                            }
+                        }
+                    }
+                }
+            },
+            "name": "360p",
+            "id": "youtube___360p_sharing",
+            "tags": {
+                "format_online_video_for_youtube": {}
+            }
+        }
+    ]
+}

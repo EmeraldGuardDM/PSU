@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="448">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="450">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="446"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="452">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="445"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="446">
+        <uniqueId type="String" value="{d1b749ce-7d41-4cc4-9a99-aa2a450d57c8}"/>
+        <item type="ObjectRef" value="445"/>
+        <preview type="ImageRef" ref="empty"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="transitions"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Themes"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="445">
+        <tag type="String" value="Geometric_theme"/>
+        <description type="String" value="A set of geometric-inspired transitions for the modern, avant-garde look"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="resources/geometricTheme/theme"/>
+        <remoteUrl type="String" value=""/>
+        <kind type="int32_t" value="6"/>
+        <category type="String" value="transitions"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="446"/>
+</Archive>

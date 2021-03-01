@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5272" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="5274" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="5270" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="5276" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="5266" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5270" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{ff63f420-d186-46a4-829a-9272aa081921}" type="String"/>
+        <item value="5266" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="sample_music" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="5266" type="Import::Object">
+        <tag value="Music_Road_Trip" type="String"/>
+        <description value="Desc Road_Trip" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Music Library/Road_Trip.mp3" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/music_library/Road_Trip.mp3" type="String"/>
+        <kind value="1" type="int32_t"/>
+        <category value="CATEGORY_ENERGETIC" type="String"/>
+    </RootObject>
+    <RootRef value="5270" type="ObjectRef"/>
+</Archive>

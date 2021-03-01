@@ -1,0 +1,16 @@
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\bin\Release\Lab3.exe.config
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\bin\Release\Lab3.exe
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\bin\Release\Lab3.pdb
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\bin\Release\PacketDotNet.dll
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\bin\Release\SharpPcap.dll
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\bin\Release\PacketDotNet.xml
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\bin\Release\SharpPcap.xml
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\obj\Release\Lab3.csprojResolveAssemblyReference.cache
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\obj\Release\Lab3.Form1.resources
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\obj\Release\Lab3.Properties.Resources.resources
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\obj\Release\Lab3.csproj.GenerateResource.Cache
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\obj\Release\Lab3.exe
+C:\Users\djnik\Desktop\зирксис\lab3\PacketsActivityCenter\obj\Release\Lab3.pdb
+D:\Uni\ЗИРКСИС\lab3\PacketsActivityCenter\bin\Release\Lab3.exe.config
+D:\Uni\ЗИРКСИС\lab3\PacketsActivityCenter\obj\Release\Lab3.exe
+D:\Uni\ЗИРКСИС\lab3\PacketsActivityCenter\obj\Release\Lab3.pdb

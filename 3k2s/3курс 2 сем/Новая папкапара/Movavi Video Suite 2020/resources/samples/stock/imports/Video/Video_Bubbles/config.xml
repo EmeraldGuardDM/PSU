@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5663" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="5665" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="5661" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="5667" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="5657" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5661" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{67c72f4b-13f2-4fac-9695-5c6d22d09319}" type="String"/>
+        <item value="5657" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="sample_video" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="5657" type="Import::Object">
+        <tag value="Video_Bubbles" type="String"/>
+        <description value="Desc Bubbles" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Video/Bubbles.mov" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/video/Bubbles.mov" type="String"/>
+        <kind value="2" type="int32_t"/>
+        <category value="" type="String"/>
+    </RootObject>
+    <RootRef value="5661" type="ObjectRef"/>
+</Archive>

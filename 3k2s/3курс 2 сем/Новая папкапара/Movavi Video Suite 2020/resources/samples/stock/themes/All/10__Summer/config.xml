@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="162">
+        <predeclarations type="Array" size="2">
+            <Item index="1" type="Item">
+                <Data type="Predeclare" objectId="164">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="160"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data type="Predeclare" objectId="166">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="159"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="160">
+        <uniqueId type="String" value="{3a8e86f4-619e-46a4-ba9b-ce7650c4ca27}"/>
+        <item type="ObjectRef" value="159"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item index="1" type="Item">
+                <Data type="String" value=""/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Themes"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="159">
+        <tag type="String" value="Summer2"/>
+        <description type="String" value="For videos of your breezy trips to the ocean Hawaiian music"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Packages/summertheme2_1.mpack"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/themes2/Summer_theme2_1.mpack"/>
+        <kind type="int32_t" value="5"/>
+        <category type="String" value="CATEGORY_CALM"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="160"/>
+</Archive>

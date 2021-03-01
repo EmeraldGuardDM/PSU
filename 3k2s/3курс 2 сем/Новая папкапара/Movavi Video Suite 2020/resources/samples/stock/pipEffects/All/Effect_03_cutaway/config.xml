@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5670" type="Predeclarator">
+        <predeclarations type="Array" size="3">
+            <Item type="Item" index="1">
+                <Data objectId="5672" type="Predeclare">
+                    <typeName type="String" value="Collection::PersistentItem::Effect::Object"/>
+                    <oid type="ObjectRef" value="5668"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="5674" type="Predeclare">
+                    <typeName type="String" value="Effect::PictureInPicture"/>
+                    <oid type="ObjectRef" value="5666"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="5667"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="3">
+                <Data objectId="5676" type="Predeclare">
+                    <typeName type="String" value="Types::Transform"/>
+                    <oid type="ObjectRef" value="5667"/>
+                    <poid type="ObjectRef" value="5666"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5668" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId type="String" value="{de09f0d7-9d9a-4909-8e28-32e4a4be6294}"/>
+        <item type="ObjectRef" value="5666"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories type="Array" size="0"/>
+        <collectionId type="String" value="PipEffects"/>
+    </RootObject>
+    <RootObject objectId="5666" type="Effect::PictureInPicture">
+        <BaseOfObject objectId="5666" type="Effect::VideoEffect">
+            <BaseOfObject objectId="5666" type="Effect::Object">
+                <id type="String" value="f60a32dd-2591-4cd3-859a-69f9c6a6838f"/>
+                <tag type="String" value="effect_cutaway"/>
+                <uniqueId type="String" value="bf86d91d-8347-4030-9e6c-2872dfcf1628"/>
+                <description type="String" value=""/>
+                <intensity type="double" value="1" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <transform objectId="5667" type="Types::Transform">
+            <m11 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+            <m12 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+            <m13 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+            <m21 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+            <m22 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+            <m23 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+            <m31 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+            <m32 type="double" value="0" binaryData="AAAAAAAAAAA="/>
+            <m33 type="double" value="1" binaryData="P/AAAAAAAAA="/>
+        </transform>
+    </RootObject>
+    <RootRef type="ObjectRef" value="5668"/>
+</Archive>

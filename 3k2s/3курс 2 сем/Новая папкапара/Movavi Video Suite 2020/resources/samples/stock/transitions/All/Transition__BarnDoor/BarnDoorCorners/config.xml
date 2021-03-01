@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="2420" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="2422" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="2418" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="2424" type="Predeclare">
+                    <typeName value="Transition::BarnDoor" type="String"/>
+                    <oid value="2414" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="2418" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{711b56b0-d80c-4d28-ba0d-fe9badaf696c}" type="String"/>
+        <item value="2414" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_geometric" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="2414" type="Transition::BarnDoor">
+        <BaseOfObject objectId="2414" type="Transition::Object">
+            <id value="0a82178e-13f9-4cf8-a6ca-dd9e2b518b0c" type="String"/>
+            <tag value="BarnDoorCorners" type="String"/>
+            <description value="Desc BarnDoorCorners" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <direction value="5" type="int32_t"/>
+    </RootObject>
+    <RootRef value="2418" type="ObjectRef"/>
+</Archive>

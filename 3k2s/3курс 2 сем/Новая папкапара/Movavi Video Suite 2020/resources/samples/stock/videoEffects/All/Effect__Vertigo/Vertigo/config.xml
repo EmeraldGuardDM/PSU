@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6615" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6617" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6613" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6619" type="Predeclare">
+                    <typeName value="Effect::Vertigo" type="String"/>
+                    <oid value="6609" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6613" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{17230f4e-a94d-492a-a9cf-43b7db9c81a2}" type="String"/>
+        <item value="6609" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6609" type="Effect::Vertigo">
+        <BaseOfObject objectId="6609" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6609" type="Effect::Object">
+                <id value="d01a98be-9a59-4217-95f5-06a955782b8a" type="String"/>
+                <tag value="Vertigo" type="String"/>
+                <uniqueId value="d01a98be-9a59-4217-95f5-06a955782b8a" type="String"/>
+                <description value="Desc Vertigo" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <scale value="0.35" type="double" binaryData="P9ZmZmZmZmY="/>
+        <speed value="0.02" type="double" binaryData="P5R64UeuFHs="/>
+    </RootObject>
+    <RootRef value="6613" type="ObjectRef"/>
+</Archive>

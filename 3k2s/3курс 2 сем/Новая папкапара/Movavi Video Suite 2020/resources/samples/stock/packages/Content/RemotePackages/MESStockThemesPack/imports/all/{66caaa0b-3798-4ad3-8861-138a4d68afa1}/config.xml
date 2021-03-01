@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="250">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="252">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="248"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="254">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="247"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="248">
+        <uniqueId type="String" value="{8ff60601-4144-41e5-ba3f-5ecfa9ef3fca}"/>
+        <item type="ObjectRef" value="247"/>
+        <preview type="ImageRef" ref="empty"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="transitions"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Themes"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="247">
+        <tag type="String" value="Crossfade_theme"/>
+        <description type="String" value="Slides smoothly fade from one slide to the next without distracting from the content"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="resources/crossfadeTheme/theme"/>
+        <remoteUrl type="String" value=""/>
+        <kind type="int32_t" value="6"/>
+        <category type="String" value="transitions"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="248"/>
+</Archive>

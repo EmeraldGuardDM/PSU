@@ -1,0 +1,6 @@
+D:\Uni\ЗИРКСИС\lab4\lab4\bin\Debug\lab4.exe.config
+D:\Uni\ЗИРКСИС\lab4\lab4\bin\Debug\lab4.exe
+D:\Uni\ЗИРКСИС\lab4\lab4\bin\Debug\lab4.pdb
+D:\Uni\ЗИРКСИС\lab4\lab4\obj\Debug\lab4.csprojResolveAssemblyReference.cache
+D:\Uni\ЗИРКСИС\lab4\lab4\obj\Debug\lab4.exe
+D:\Uni\ЗИРКСИС\lab4\lab4\obj\Debug\lab4.pdb

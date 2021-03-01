@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="272" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="274" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="270" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="276" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="268" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="270" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{98d13197-692f-4db9-a98b-2effa33b9ae6}" type="String"/>
+        <item value="268" type="ObjectRef"/>
+        <preview ref="empty" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="transitions" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="ThemesVideo" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="268" type="Import::Object">
+        <tag value="random_theme_video" type="String"/>
+        <description value="" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="resources/randomTheme/preview.bundle" type="String"/>
+        <remoteUrl value="" type="String"/>
+        <kind value="4" type="int32_t"/>
+        <category value="transitions" type="String"/>
+    </RootObject>
+    <RootRef value="270" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4775" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4777" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="4773" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4779" type="Predeclare">
+                    <typeName value="Effect::Flip" type="String"/>
+                    <oid value="4769" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4773" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{da72e26f-7106-4dda-893f-a93268d5811b}" type="String"/>
+        <item value="4769" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_adjust" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4769" type="Effect::Flip">
+        <BaseOfObject objectId="4769" type="Effect::VideoEffect">
+            <BaseOfObject objectId="4769" type="Effect::Object">
+                <id value="45fc4a8b-2261-452e-90e2-fb882118a392" type="String"/>
+                <tag value="FlipBoth" type="String"/>
+                <uniqueId value="45fc4a8b-2261-452e-90e2-fb882118a392" type="String"/>
+                <description value="Desc FlipBoth" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <vertical value="1" type="bool"/>
+        <horizontal value="1" type="bool"/>
+    </RootObject>
+    <RootRef value="4773" type="ObjectRef"/>
+</Archive>

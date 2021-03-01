@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="96011">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="96013">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="96009"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="96015">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="96005"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="96009">
+        <uniqueId type="String" value="{8db9732e-3cd2-4f8e-9a28-d639de3dab84}"/>
+        <item type="ObjectRef" value="96005"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value=""/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Themes"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="96005">
+        <tag type="String" value="Action2"/>
+        <description type="String" value="For action videos Action music"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Packages/actiontheme2.mpack"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/themes2/Action_theme2.mpack"/>
+        <kind type="int32_t" value="5"/>
+        <category type="String" value="CATEGORY_ENERGETIC"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="96009"/>
+</Archive>

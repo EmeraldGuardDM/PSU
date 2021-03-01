@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+    <project file="config.xml" version="6"/>
+    <additionals>
+        <uuid>{b1c47701-d46e-4823-94a8-7e7d7ce3bf62}</uuid>
+        <name>Bouncing_point-alias</name>
+        <size>12232</size>
+        <previewPath>preview.png</previewPath>
+    </additionals>
+</versions>

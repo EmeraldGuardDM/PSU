@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="130497">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="130499">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="130495"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="130501">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="130491"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="130495">
+        <uniqueId type="String" value="{027e6e14-cb65-4e7e-95d7-c52f11846a9d}"/>
+        <item type="ObjectRef" value="130491"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="intros"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Imports"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="130491">
+        <tag type="String" value="Graphite sphere"/>
+        <description type="String" value="Graphite sphere"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Packages/{a8396510-655a-4b4e-8a66-273f20e6378d}.mpack"/>
+        <remoteUrl type="String" value="https://files.movavi.com/dl/stock/intro/plus/Graphite_sphere.mpack"/>
+        <kind type="int32_t" value="5"/>
+        <category type="String" value="intros"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="130495"/>
+</Archive>

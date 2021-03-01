@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+    <project file="config.xml" version="6"/>
+    <additionals>
+        <uuid>{9af52366-6612-449b-8b0a-104318a2ef49}</uuid>
+        <name>Cracker-alias</name>
+        <size>57575</size>
+        <previewPath>preview.png</previewPath>
+    </additionals>
+</versions>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4591" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4593" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="4589" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4595" type="Predeclare">
+                    <typeName value="Effect::FilmStrip" type="String"/>
+                    <oid value="4585" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4589" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{15673b4b-000b-44fe-b92d-4a6a50cb16ee}" type="String"/>
+        <item value="4585" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4585" type="Effect::FilmStrip">
+        <BaseOfObject objectId="4585" type="Effect::VideoEffect">
+            <BaseOfObject objectId="4585" type="Effect::Object">
+                <id value="23426fc3-a681-413a-a9fe-340503101431" type="String"/>
+                <tag value="FilmStripInline" type="String"/>
+                <uniqueId value="23426fc3-a681-413a-a9fe-340503101431" type="String"/>
+                <description value="Desc FilmStripInline" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <type value="0" type="int32_t"/>
+    </RootObject>
+    <RootRef value="4589" type="ObjectRef"/>
+</Archive>

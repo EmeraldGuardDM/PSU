@@ -1,0 +1,61 @@
+{
+	"presets": [
+		{
+			"3GP": "mobile_phone_3gp___352x288"
+		},
+		{
+			"AAC": "aac___same_as_input"
+		},
+		{
+			"APPLETV": "apple_tv_4k"
+		},
+		{
+			"AVI": "avi"
+		},
+		{
+			"DVDPAL": "dvd_pal_high_quality"
+		},
+		{
+			"FLV": "flv___same_as_input"
+		},
+		{
+			"GIF": "large_gif"
+		},
+		{
+			"JPG": "jpg_image"
+		},
+		{
+			"M4R": "m4r"
+		},
+		{
+			"MKV": "mkv"
+		},
+		{
+			"MOV": "mov"
+		},
+		{
+			"MP3": "mp3"
+		},
+		{
+			"MP4I": "mp4_for_imovie"
+		},
+		{
+			"MPEG": "mpeg_2"
+		},
+		{
+			"RING": "apple___audio_only"
+		},
+		{
+			"TIFF": "tiff_image"
+		},
+		{
+			"WAV": "wav"
+		},
+		{
+			"WEBM": "webm"
+		},
+		{
+			"WMV": "wmv"
+		}
+	]
+}

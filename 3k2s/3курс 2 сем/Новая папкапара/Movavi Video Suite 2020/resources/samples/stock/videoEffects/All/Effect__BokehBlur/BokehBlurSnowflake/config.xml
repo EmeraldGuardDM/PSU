@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3418" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="3420" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="3416" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="3422" type="Predeclare">
+                    <typeName value="Effect::BokehBlur" type="String"/>
+                    <oid value="3412" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3416" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{a4128c0f-872f-4f77-8b1a-eb6819ea20d6}" type="String"/>
+        <item value="3412" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_blur" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3412" type="Effect::BokehBlur">
+        <BaseOfObject objectId="3412" type="Effect::VideoEffect">
+            <BaseOfObject objectId="3412" type="Effect::Object">
+                <id value="103da8a8-713c-4618-b11e-52cf492e2061" type="String"/>
+                <tag value="BokehBlurSnowflake" type="String"/>
+                <uniqueId value="103da8a8-713c-4618-b11e-52cf492e2061" type="String"/>
+                <description value="Desc BokehBlurSnowflake" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset value="7" type="int32_t"/>
+    </RootObject>
+    <RootRef value="3416" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,15 @@
+c:\users\rjllx\documents\visual studio 2015\Projects\LocalActivity\LocalActivity\bin\Debug\LocalActivity.exe.config
+c:\users\rjllx\documents\visual studio 2015\Projects\LocalActivity\LocalActivity\bin\Debug\LocalActivity.exe
+c:\users\rjllx\documents\visual studio 2015\Projects\LocalActivity\LocalActivity\bin\Debug\LocalActivity.pdb
+c:\users\rjllx\documents\visual studio 2015\Projects\LocalActivity\LocalActivity\obj\Debug\LocalActivity.csprojResolveAssemblyReference.cache
+c:\users\rjllx\documents\visual studio 2015\Projects\LocalActivity\LocalActivity\obj\Debug\LocalActivity.exe
+c:\users\rjllx\documents\visual studio 2015\Projects\LocalActivity\LocalActivity\obj\Debug\LocalActivity.pdb
+C:\Users\djnik\Desktop\зирксис\LocalActivity\LocalActivity\bin\Debug\LocalActivity.exe.config
+C:\Users\djnik\Desktop\зирксис\LocalActivity\LocalActivity\obj\Debug\LocalActivity.exe
+C:\Users\djnik\Desktop\зирксис\LocalActivity\LocalActivity\obj\Debug\LocalActivity.pdb
+C:\Users\djnik\Desktop\зирксис\LocalActivity\LocalActivity\bin\Debug\LocalActivity.exe
+C:\Users\djnik\Desktop\зирксис\LocalActivity\LocalActivity\bin\Debug\LocalActivity.pdb
+C:\Users\djnik\Desktop\зирксис\LocalActivity\LocalActivity\obj\Debug\LocalActivity.csprojResolveAssemblyReference.cache
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\bin\Debug\LocalActivity.exe.config
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\obj\Debug\LocalActivity.exe
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\obj\Debug\LocalActivity.pdb

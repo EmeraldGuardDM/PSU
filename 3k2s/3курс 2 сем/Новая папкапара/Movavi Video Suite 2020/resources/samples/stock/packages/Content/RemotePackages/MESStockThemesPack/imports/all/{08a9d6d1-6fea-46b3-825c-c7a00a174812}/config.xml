@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="404">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="406">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="402"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="408">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="400"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="402">
+        <uniqueId type="String" value="{8001687c-f117-40f4-ada1-9f2a1f457194}"/>
+        <item type="ObjectRef" value="400"/>
+        <preview type="ImageRef" ref="empty"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="transitions"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="ThemesVideo"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="400">
+        <tag type="String" value="geometric_theme_video"/>
+        <description type="String" value=""/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="resources/geometricTheme/preview.bundle"/>
+        <remoteUrl type="String" value=""/>
+        <kind type="int32_t" value="4"/>
+        <category type="String" value="transitions"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="402"/>
+</Archive>

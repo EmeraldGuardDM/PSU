@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="449">
+        <predeclarations type="Array" size="2">
+            <Item index="1" type="Item">
+                <Data type="Predeclare" objectId="451">
+                    <typeName type="String" value="Collection::PersistentItem::Theme::Object"/>
+                    <oid type="ObjectRef" value="447"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data type="Predeclare" objectId="453">
+                    <typeName type="String" value="Theme::Object"/>
+                    <oid type="ObjectRef" value="440"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Theme::Object" objectId="447">
+        <uniqueId type="String" value="{4378bd2d-70d7-4f18-8b05-30e1b34bb775}"/>
+        <item type="ObjectRef" value="440"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item index="1" type="Item">
+                <Data type="String" value="transitions"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Themes"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Theme::Object" objectId="440">
+        <tag type="String" value="Random_theme"/>
+        <transitionsList size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="" type="String"/>
+            </Item>
+        </transitionsList>
+        <previewVideo type="String" value="random_theme_video"/>
+        <music type="String" value=""/>
+        <startTitle type="String" value="Simple3"/>
+        <finalTitle type="String" value="ModernRibbon"/>
+        <minSceneDuration value="1000" type="int64_t"/>
+        <maxSceneDuration value="4000" type="int64_t"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="447"/>
+</Archive>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="5774">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="5776">
+                    <typeName type="String" value="Package::Object"/>
+                    <oid type="ObjectRef" value="5760"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Data type="ObjectRef" value="5772"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="5778">
+                    <typeName type="String" value="Package::CollectionAddOn"/>
+                    <oid type="ObjectRef" value="5772"/>
+                    <poid type="ObjectRef" value="5760"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Package::Object" objectId="5760">
+        <overlays type="Array" size="0"/>
+        <transitions type="Array" size="0"/>
+        <imports type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="Package::CollectionAddOn" objectId="5772">
+                    <contentPath type="String" value="imports/{6576742c-3c09-4b7a-8a76-926bd5ce50c8}/"/>
+                    <translationDir type="String" value=""/>
+                    <category2collection type="Array" size="1">
+                        <Item type="Item" index="1">
+                            <Key type="String" value="intros"/>
+                            <Value type="String" value="Imports"/>
+                        </Item>
+                    </category2collection>
+                    <resources type="Array" size="0"/>
+                </Data>
+            </Item>
+        </imports>
+        <fontsDir type="String" value=""/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="5760"/>
+</Archive>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5281" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="5283" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="5279" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="5285" type="Predeclare">
+                    <typeName value="Effect::HalfTone" type="String"/>
+                    <oid value="5275" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5279" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{7b82ebee-b044-4582-8dce-5f9b41e48251}" type="String"/>
+        <item value="5275" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_artistic" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="5275" type="Effect::HalfTone">
+        <BaseOfObject objectId="5275" type="Effect::VideoEffect">
+            <BaseOfObject objectId="5275" type="Effect::Object">
+                <id value="6ebb17e3-db4e-4cd4-9948-a154a43f3282" type="String"/>
+                <tag value="HalfTonePurple" type="String"/>
+                <uniqueId value="6ebb17e3-db4e-4cd4-9948-a154a43f3282" type="String"/>
+                <description value="Desc HalfTonePurple" type="String"/>
+                <intensity value="0.75" type="double" binaryData="P+gAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <bkgnd value="0" type="uint32_t"/>
+        <dtclr value="16711935" type="uint32_t"/>
+        <scale value="0.0015" type="double" binaryData="P1iTdLxqfvo="/>
+        <angle value="30" type="int32_t"/>
+    </RootObject>
+    <RootRef value="5279" type="ObjectRef"/>
+</Archive>

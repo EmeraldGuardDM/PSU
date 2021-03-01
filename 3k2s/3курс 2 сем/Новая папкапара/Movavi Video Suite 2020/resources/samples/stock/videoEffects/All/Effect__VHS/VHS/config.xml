@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6592" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6594" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6590" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6596" type="Predeclare">
+                    <typeName value="Effect::VHS" type="String"/>
+                    <oid value="6586" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6590" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{ee71887c-5f83-4164-bf53-572b04300694}" type="String"/>
+        <item value="6586" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_retro_movie" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6586" type="Effect::VHS">
+        <BaseOfObject objectId="6586" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6586" type="Effect::Object">
+                <id value="5830bcba-b2de-4f36-9230-636b6263c9be" type="String"/>
+                <tag value="VHS" type="String"/>
+                <uniqueId value="5830bcba-b2de-4f36-9230-636b6263c9be" type="String"/>
+                <description value="Desc VHS" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <speed value="0.2" type="double" binaryData="P8mZmZmZmZo="/>
+        <shift value="0.05" type="double" binaryData="P6mZmZmZmZo="/>
+        <smoothness value="1" type="double" binaryData="P/AAAAAAAAA="/>
+        <relief value="0.5" type="double" binaryData="P+AAAAAAAAA="/>
+    </RootObject>
+    <RootRef value="6590" type="ObjectRef"/>
+</Archive>

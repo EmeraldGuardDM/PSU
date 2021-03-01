@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="2765" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="2767" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="2763" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="2769" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="2759" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="2763" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{0d7a58a0-759a-496e-88b1-bae976f205c8}" type="String"/>
+        <item value="2759" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="sample_audio" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="2759" type="Import::Object">
+        <tag value="Audio_Keyboard" type="String"/>
+        <description value="Desc Keyboard" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Audio/Keyboard.mp3" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/audio_samples/Keyboard.mp3" type="String"/>
+        <kind value="0" type="int32_t"/>
+        <category value="" type="String"/>
+    </RootObject>
+    <RootRef value="2763" type="ObjectRef"/>
+</Archive>

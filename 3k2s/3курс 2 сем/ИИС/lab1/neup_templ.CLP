@@ -1,0 +1,5 @@
+(deftemplate human (slot name))
+(deftemplate animal (slot type) (slot color))
+(deftemplate music (slot style) (slot bpm) (slot Artist))
+(deftemplate computer (slot cpu) (slot ram))
+(deftemplate car (slot color) (slot max-speed))

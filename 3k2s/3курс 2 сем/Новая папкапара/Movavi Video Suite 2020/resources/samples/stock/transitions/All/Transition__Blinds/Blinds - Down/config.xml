@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="2489" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="2491" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="2487" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="2493" type="Predeclare">
+                    <typeName value="Transition::Blinds" type="String"/>
+                    <oid value="2483" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="2487" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{6a80b1b5-5f68-4b26-a078-6f665b40791a}" type="String"/>
+        <item value="2483" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_geometric" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="2483" type="Transition::Blinds">
+        <BaseOfObject objectId="2483" type="Transition::Object">
+            <id value="5aa22a87-b3ea-44d4-aad5-14659f47a550" type="String"/>
+            <tag value="Blinds - Down" type="String"/>
+            <description value="Desc Blinds - Down" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+    </RootObject>
+    <RootRef value="2487" type="ObjectRef"/>
+</Archive>

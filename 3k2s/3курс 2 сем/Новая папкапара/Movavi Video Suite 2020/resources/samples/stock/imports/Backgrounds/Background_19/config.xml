@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3202" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="3204" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="3200" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="3206" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="3196" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3200" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{0c177359-edef-41dd-b42d-2acfa095e1c6}" type="String"/>
+        <item value="3196" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="backgrounds" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3196" type="Import::Object">
+        <tag value="Background_19" type="String"/>
+        <description value="Desc Background_19" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Backgrounds/19.png" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/backgrounds_new/19.png" type="String"/>
+        <kind value="3" type="int32_t"/>
+        <category value="" type="String"/>
+    </RootObject>
+    <RootRef value="3200" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="2595" type="Predeclarator">
+        <predeclarations size="4" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="2597" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="2593" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="2599" type="Predeclare">
+                    <typeName value="Effect::AudioEcho" type="String"/>
+                    <oid value="2587" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="2" type="Array">
+                        <Item index="1" type="Item">
+                            <Data value="2591" type="ObjectRef"/>
+                        </Item>
+                        <Item index="2" type="Item">
+                            <Data value="2592" type="ObjectRef"/>
+                        </Item>
+                    </refs>
+                </Data>
+            </Item>
+            <Item index="3" type="Item">
+                <Data objectId="2601" type="Predeclare">
+                    <typeName value="Effect::AudioEcho::Echo" type="String"/>
+                    <oid value="2591" type="ObjectRef"/>
+                    <poid value="2587" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="4" type="Item">
+                <Data objectId="2604" type="Predeclare">
+                    <typeName value="Effect::AudioEcho::Echo" type="String"/>
+                    <oid value="2592" type="ObjectRef"/>
+                    <poid value="2587" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="2593" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{e99cca78-209d-42fa-bbe2-5391f63fb9f1}" type="String"/>
+        <item value="2587" type="ObjectRef"/>
+        <preview ref="empty" type="ImageRef"/>
+        <categories size="0" type="Array"/>
+        <collectionId value="EffectsAudio" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="2587" type="Effect::AudioEcho">
+        <BaseOfObject objectId="2587" type="Effect::AudioFilter">
+            <BaseOfObject objectId="2587" type="Effect::Object">
+                <id value="2f95ac2d-7ee2-4f3e-8391-9a1ee8674521" type="String"/>
+                <tag value="Echo" type="String"/>
+                <uniqueId value="820c9391-6388-49f7-83a2-590014abcfa3" type="String"/>
+                <description value="Desc Echo" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <gainIn value="1" type="double" binaryData="P/AAAAAAAAA="/>
+        <gainOut value="1" type="double" binaryData="P/AAAAAAAAA="/>
+        <echos size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="2591" type="Effect::AudioEcho::Echo">
+                    <delay value="300" type="int32_t"/>
+                    <decay value="0.5" type="double" binaryData="P+AAAAAAAAA="/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="2592" type="Effect::AudioEcho::Echo">
+                    <delay value="600" type="int32_t"/>
+                    <decay value="0.2" type="double" binaryData="P8mZmZmZmZo="/>
+                </Data>
+            </Item>
+        </echos>
+    </RootObject>
+    <RootRef value="2593" type="ObjectRef"/>
+</Archive>

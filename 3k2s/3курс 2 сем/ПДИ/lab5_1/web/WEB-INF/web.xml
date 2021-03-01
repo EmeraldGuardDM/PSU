@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>Task15</servlet-name>
+        <servlet-class>Task15</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Task15</servlet-name>
+        <url-pattern>/Task15</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Task16</servlet-name>
+        <servlet-class>Task16</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Task16</servlet-name>
+        <url-pattern>/Task16</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ResultServlet</servlet-name>
+        <servlet-class>ResultServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResultServlet</servlet-name>
+        <url-pattern>/ResultServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

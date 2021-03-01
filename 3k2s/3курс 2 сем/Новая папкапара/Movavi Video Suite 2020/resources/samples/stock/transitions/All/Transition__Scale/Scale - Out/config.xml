@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="3892" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="3894" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="3890" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="3896" type="Predeclare">
+                    <typeName value="Transition::Scale" type="String"/>
+                    <oid value="3886" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="3890" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{7e9405b1-4aac-4929-9871-81600fd6bd67}" type="String"/>
+        <item value="3886" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_zoom" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="3886" type="Transition::Scale">
+        <BaseOfObject objectId="3886" type="Transition::Object">
+            <id value="e483122f-89e2-4280-b6c9-d198bf598644" type="String"/>
+            <tag value="Scale - Out" type="String"/>
+            <description value="Desc Scale - Out" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+        <mode value="1" type="int32_t"/>
+    </RootObject>
+    <RootRef value="3890" type="ObjectRef"/>
+</Archive>

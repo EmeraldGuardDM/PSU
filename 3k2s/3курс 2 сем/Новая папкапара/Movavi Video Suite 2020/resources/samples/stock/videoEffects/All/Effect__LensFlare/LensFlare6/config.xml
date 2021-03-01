@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="5488" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="5490" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="5486" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="5492" type="Predeclare">
+                    <typeName value="Effect::LensFlare" type="String"/>
+                    <oid value="5482" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="5486" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{fb3fd276-ee9c-4653-8825-fae8fe38d32d}" type="String"/>
+        <item value="5482" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_light_leaks" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="5482" type="Effect::LensFlare">
+        <BaseOfObject objectId="5482" type="Effect::VideoEffect">
+            <BaseOfObject objectId="5482" type="Effect::Object">
+                <id value="e1cbf0ef-3d75-4626-aaaf-c41e47c9c9c4" type="String"/>
+                <tag value="LensFlare6" type="String"/>
+                <uniqueId value="e1cbf0ef-3d75-4626-aaaf-c41e47c9c9c4" type="String"/>
+                <description value="Desc LensFlare6" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <Presets value="7" type="int32_t"/>
+    </RootObject>
+    <RootRef value="5486" type="ObjectRef"/>
+</Archive>

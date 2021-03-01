@@ -1,0 +1,9 @@
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\obj\Debug\lab4.csprojResolveAssemblyReference.cache
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\bin\Debug\Lab4.exe.config
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\bin\Debug\Lab4.exe
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\bin\Debug\Lab4.pdb
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\obj\Debug\Lab4.exe
+C:\Users\djnik\Desktop\зирксис\lab4\LocalActivity\obj\Debug\Lab4.pdb
+D:\Uni\ЗИРКСИС\lab4\LocalActivity\bin\Debug\Lab4.exe.config
+D:\Uni\ЗИРКСИС\lab4\LocalActivity\obj\Debug\Lab4.exe
+D:\Uni\ЗИРКСИС\lab4\LocalActivity\obj\Debug\Lab4.pdb

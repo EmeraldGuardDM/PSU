@@ -1,0 +1,27 @@
+{
+    "order": {
+        "tagsOrder": [
+            "format_general_video", 
+            "format_general_audio"
+        ], 
+        "schemaVersion": 0, 
+        "presetsOrderByTag": [
+            {
+                "presets": [
+                    "mp4_h_264",
+                    "avi_h_264",
+                    "medium_gif",
+                    "mov",
+                    "mkv"
+                ],
+                "tagName": "format_general_video"
+            }, 
+            {
+                "presets": [
+                    "mp3"
+                ], 
+                "tagName": "format_general_audio"
+            }
+        ]
+    }
+}

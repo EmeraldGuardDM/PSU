@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6822" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6824" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6820" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6826" type="Predeclare">
+                    <typeName value="Effect::VignetteFilter" type="String"/>
+                    <oid value="6816" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6820" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{fb57eca5-caeb-4cb0-ac18-9674f47578f5}" type="String"/>
+        <item value="6816" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="Vignettes" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6816" type="Effect::VignetteFilter">
+        <BaseOfObject objectId="6816" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6816" type="Effect::Object">
+                <id value="523d41e0-d692-4e08-817a-cc69788c6ab2" type="String"/>
+                <tag value="_Vignette_9" type="String"/>
+                <uniqueId value="523d41e0-d692-4e08-817a-cc69788c6ab2" type="String"/>
+                <description value="Desc VignetteFilter9" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <preset value="8" type="int32_t"/>
+    </RootObject>
+    <RootRef value="6820" type="ObjectRef"/>
+</Archive>

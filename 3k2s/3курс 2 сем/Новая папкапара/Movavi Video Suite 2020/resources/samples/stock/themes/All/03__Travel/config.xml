@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="52">
+        <predeclarations type="Array" size="2">
+            <Item index="1" type="Item">
+                <Data type="Predeclare" objectId="54">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="50"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data type="Predeclare" objectId="56">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="49"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="50">
+        <uniqueId type="String" value="{2c1955e5-9364-4d26-b54b-a3a34f175173}"/>
+        <item type="ObjectRef" value="49"/>
+        <preview type="ImageRef" ref="images/preview.png"/>
+        <categories type="Array" size="1">
+            <Item index="1" type="Item">
+                <Data type="String" value=""/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Themes"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="49">
+        <tag type="String" value="Travel2"/>
+        <description type="String" value="For dynamic travel videos Uplifting music"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="#DOWNLOADABLE_PATH#/Packages/traveltheme2.mpack"/>
+        <remoteUrl type="String" value="http://files.movavi.com/dl/stock/themes2/Travel_theme2.mpack"/>
+        <kind type="int32_t" value="5"/>
+        <category type="String" value="CATEGORY_ENERGETIC"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="50"/>
+</Archive>

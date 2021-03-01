@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Chatty_Bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Check burgs/Simple_Chatty_Bot.Problems-Check_burgs.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Extracting a substring/Simple_Chatty_Bot.Problems-Extracting_a_substring.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The roots of an equation/Simple_Chatty_Bot.Problems-The_roots_of_an_equation.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The roots of an equation/Simple_Chatty_Bot.Problems-The_roots_of_an_equation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The roots of an equation/Simple_Chatty_Bot.Problems-The_roots_of_an_equation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The roots of an equation/Simple_Chatty_Bot.Problems-The_roots_of_an_equation.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The roots of an equation/Simple_Chatty_Bot.Problems-The_roots_of_an_equation.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The roots of an equation/Simple_Chatty_Bot.Problems-The_roots_of_an_equation.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Chatty_Bot.util.test.iml" />
+    </modules>
+  </component>
+</project>

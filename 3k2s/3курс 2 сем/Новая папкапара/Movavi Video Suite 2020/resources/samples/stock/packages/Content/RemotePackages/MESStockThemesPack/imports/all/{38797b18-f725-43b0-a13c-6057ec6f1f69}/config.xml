@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject type="Predeclarator" objectId="30">
+        <predeclarations type="Array" size="2">
+            <Item type="Item" index="1">
+                <Data type="Predeclare" objectId="32">
+                    <typeName type="String" value="Collection::PersistentItem::Import::Object"/>
+                    <oid type="ObjectRef" value="28"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data type="Predeclare" objectId="34">
+                    <typeName type="String" value="Import::Object"/>
+                    <oid type="ObjectRef" value="27"/>
+                    <poid type="ObjectRef" value="0"/>
+                    <refs type="Array" size="0"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject type="Collection::PersistentItem::Import::Object" objectId="28">
+        <uniqueId type="String" value="{738042c4-4a21-4756-8400-f9f8860e6423}"/>
+        <item type="ObjectRef" value="27"/>
+        <preview type="ImageRef" ref="empty"/>
+        <categories type="Array" size="1">
+            <Item type="Item" index="1">
+                <Data type="String" value="transitions"/>
+            </Item>
+        </categories>
+        <collectionId type="String" value="Themes"/>
+        <customStrings type="Array" size="0"/>
+    </RootObject>
+    <RootObject type="Import::Object" objectId="27">
+        <tag type="String" value="Random_theme"/>
+        <description type="String" value="Slides will be joined with completely random transitions from the entire transition collection"/>
+        <descriptionUrl type="String" value=""/>
+        <location type="String" value="resources/randomTheme/theme"/>
+        <remoteUrl type="String" value=""/>
+        <kind type="int32_t" value="6"/>
+        <category type="String" value="transitions"/>
+    </RootObject>
+    <RootRef type="ObjectRef" value="28"/>
+</Archive>

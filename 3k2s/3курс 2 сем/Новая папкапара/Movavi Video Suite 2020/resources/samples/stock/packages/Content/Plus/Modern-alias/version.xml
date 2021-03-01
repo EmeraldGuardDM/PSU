@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+    <project file="config.xml" version="6"/>
+    <additionals>
+        <uuid>{25156a11-dfec-4f97-a713-6f39c7c49142}</uuid>
+        <name>Modern-alias</name>
+        <size>57702</size>
+        <previewPath>preview.png</previewPath>
+    </additionals>
+</versions>

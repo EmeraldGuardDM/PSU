@@ -1,0 +1,345 @@
+{
+    "schemaVersion": 0,
+    "presets": [
+        {
+            "container": {
+                "container": "mp4",
+                "progressiveRead": false,
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 16,
+                    "limits_subtitle": 16,
+                    "limits_other": 16
+                },
+                "maxPayloadSize": 1460,
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "original",
+                                "resizeMode": "letterbox",
+                                "scaleFactor": 1.00000,
+                                "width": 800,
+                                "height": 600,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "main",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_AAC",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            },
+            "name": "MP4 H.264",
+            "id": "mp4_h_264",
+            "tags": {
+                "format_general_video": {}
+            }
+        },
+        {
+            "container": {
+                "container": "avi",
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 16,
+                    "limits_subtitle": 16,
+                    "limits_other": 0
+                },
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "original",
+                                "resizeMode": "letterbox",
+                                "scaleFactor": 1.00000,
+                                "width": 800,
+                                "height": 600,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "main",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_MP3",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            },
+            "name": "AVI H.264",
+            "id": "avi_h_264",
+            "tags": {
+                "format_general_video": {}
+            }
+        },
+        {
+            "container": {
+                "container": "mov",
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 16,
+                    "limits_subtitle": 16,
+                    "limits_other": 16
+                },
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "original",
+                                "resizeMode": "letterbox",
+                                "scaleFactor": 1.00000,
+                                "width": 800,
+                                "height": 600,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "main",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_AAC",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            },
+            "name": "MOV",
+            "id": "mov",
+            "tags": {
+                "format_general_video": {}
+            }
+        },
+        {
+            "container": {
+                "container": "matroska",
+                "limits": {
+                    "limits_video": 64,
+                    "limits_audio": 64,
+                    "limits_subtitle": 64,
+                    "limits_other": 64
+                },
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "0/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "original",
+                                "resizeMode": "letterbox",
+                                "scaleFactor": 1.00000,
+                                "width": 800,
+                                "height": 600,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "fast_bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_H264",
+                            "bitrate": 1028000,
+                            "quality": 1,
+                            "bitrate_mode": "CBR_AUTO",
+                            "codec.options.encode": {
+                                "preset": "faster",
+                                "profile": "main",
+                                "tune": "film"
+                            },
+                            "maxBFrameSequence": 0,
+                            "maxIFrameInterval": 25
+                        }
+                    },
+                    "1": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_AAC",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            },
+            "name": "MKV",
+            "id": "mkv",
+            "tags": {
+                "format_general_video": {}
+            }
+        },
+        {
+            "container": {
+                "container": "gif",
+                "limits": {
+                    "limits_video": 1,
+                    "limits_audio": 0,
+                    "limits_subtitle": 0,
+                    "limits_other": 0
+                },
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "video",
+                        "$$VIDEO_FRAMERATE$$": {
+                            "frameRateRatio": "15/1"
+                        },
+                        "$$VIDEO_RESIZE$$": {
+                            "$$RESIZE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "frameSize": "custom",
+                                "resizeMode": "upToSize",
+                                "scaleFactor": 1.00000,
+                                "width": 544,
+                                "height": 306,
+                                "aspect_x": 1,
+                                "aspect_y": 1,
+                                "resizeMethod": "bilinear"
+                            }
+                        },
+                        "$$VIDEO_CODEC$$": {
+                            "codec_id": "CODEC_ID_GIF",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 320000
+                        }
+                    }
+                }
+            },
+            "name": "Medium GIF",
+            "id": "medium_gif",
+            "tags": {
+                "format_general_video": {}
+            }
+        },
+        {
+            "container": {
+                "container": "mp3",
+                "limits": {
+                    "limits_video": 0,
+                    "limits_audio": 1,
+                    "limits_subtitle": 0,
+                    "limits_other": 1
+                },
+                "$$STREAMS$$": {
+                    "0": {
+                        "$$TYPE_ID$$": "audio",
+                        "$$AUDIO_RESAMPLE$$": {
+                            "$$RESAMPLE$$": {
+                                "$$TYPE_ID$$": "default",
+                                "layout": "UNKNOWN",
+                                "sample_rate": -1
+                            }
+                        },
+                        "$$AUDIO_CODEC$$": {
+                            "codec_id": "CODEC_ID_MP3",
+                            "bitrate_mode": "CBR_AUTO",
+                            "bitrate": 320000,
+                            "quality": 1,
+                            "codec.options.encode": {}
+                        }
+                    }
+                }
+            },
+            "name": "MP3",
+            "id": "mp3",
+            "tags": {
+                "format_general_audio": {}
+            }
+        }
+    ]
+}
+

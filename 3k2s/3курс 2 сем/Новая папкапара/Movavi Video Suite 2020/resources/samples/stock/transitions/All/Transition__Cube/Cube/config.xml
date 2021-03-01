@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="2696" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item type="Item" index="1">
+                <Data objectId="2698" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Transition::Object" type="String"/>
+                    <oid value="2694" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item type="Item" index="2">
+                <Data objectId="2700" type="Predeclare">
+                    <typeName value="Transition::Cube" type="String"/>
+                    <oid value="2690" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="2694" type="Collection::PersistentItem::Transition::Object">
+        <uniqueId value="{4f170b38-8e9d-4068-9b3d-0876ac3e7177}" type="String"/>
+        <item value="2690" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item type="Item" index="1">
+                <Data value="category_geometric" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Transitions" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="2690" type="Transition::Cube">
+        <BaseOfObject objectId="2690" type="Transition::Object">
+            <id value="b08009b6-6864-44a6-a4ee-1bfa7dbd6c8d" type="String"/>
+            <tag value="Cube" type="String"/>
+            <description value="Desc Cube" type="String"/>
+            <strategy value="0" type="int32_t"/>
+            <type value="0" type="int32_t"/>
+            <resources size="0" type="Array"/>
+        </BaseOfObject>
+    </RootObject>
+    <RootRef value="2694" type="ObjectRef"/>
+</Archive>

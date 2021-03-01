@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4752" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4754" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="4750" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4756" type="Predeclare">
+                    <typeName value="Effect::FixVertVideo" type="String"/>
+                    <oid value="4746" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4750" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{07d7a9ab-9676-489b-9a00-5f4b1fce9ba0}" type="String"/>
+        <item value="4746" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_adjust" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4746" type="Effect::FixVertVideo">
+        <BaseOfObject objectId="4746" type="Effect::VideoEffect">
+            <BaseOfObject objectId="4746" type="Effect::Object">
+                <id value="5b04a03a-bdca-4988-b10a-5c3d50303ab9" type="String"/>
+                <tag value="FixVertVideo" type="String"/>
+                <uniqueId value="5b04a03a-bdca-4988-b10a-5c3d50303ab9" type="String"/>
+                <description value="Desc FixVertVideo" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+    </RootObject>
+    <RootRef value="4750" type="ObjectRef"/>
+</Archive>

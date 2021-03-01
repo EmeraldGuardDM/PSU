@@ -1,0 +1,14 @@
+(human (name Nikita))
+(human (name Victor))
+(animal (type dog) (color black))
+(animal (type cat) (color white))
+(music (style house) (bpm 120) (Artist unknown))
+(music (style trance) (bpm 133) (Artist Bobina))
+(computer (cpu intel) (ram 1024))
+(computer (cpu amd) (ram 2048))
+(car (color red) (max-speed 220))
+(car (color green) (max-speed 280))
+
+
+
+(footballPlayer (Marcus) (Rashford) (23) (MU))

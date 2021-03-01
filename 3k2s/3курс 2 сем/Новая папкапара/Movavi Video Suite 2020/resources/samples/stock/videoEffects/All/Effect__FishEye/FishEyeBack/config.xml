@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4706" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4708" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="4704" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4710" type="Predeclare">
+                    <typeName value="Effect::FishEye" type="String"/>
+                    <oid value="4700" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4704" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{d8c4c4be-b306-4e39-8e48-a75a3b95c84e}" type="String"/>
+        <item value="4700" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_adjust" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4700" type="Effect::FishEye">
+        <BaseOfObject objectId="4700" type="Effect::VideoEffect">
+            <BaseOfObject objectId="4700" type="Effect::Object">
+                <id value="7f10aa3a-79c9-4bdf-9a5c-7005690a961a" type="String"/>
+                <tag value="FishEyeBack" type="String"/>
+                <uniqueId value="7f10aa3a-79c9-4bdf-9a5c-7005690a961a" type="String"/>
+                <description value="Desc FishEyeBack" type="String"/>
+                <intensity value="1" type="double" binaryData="P/AAAAAAAAA="/>
+            </BaseOfObject>
+        </BaseOfObject>
+        <deviation value="-0.04" type="double" binaryData="v6R64UeuFHs="/>
+    </RootObject>
+    <RootRef value="4704" type="ObjectRef"/>
+</Archive>

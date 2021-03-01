@@ -1,0 +1,11 @@
+(deffacts clubs
+	(fc (fc MU))
+	(fc (fc MC))
+	(fc (fc RM))
+	(fc (fc Barcelona))
+	(fc (fc Lokomotiv))
+	(fc (fc Chelsea))
+	(fc (fc Arsenal))
+	(fc (fc Shalke))
+	(fc (fc PSG))
+	(fc (fc Monako)))

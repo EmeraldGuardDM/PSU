@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="6086" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="6088" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Effect::Object" type="String"/>
+                    <oid value="6084" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="6090" type="Predeclare">
+                    <typeName value="Effect::MotionBlur" type="String"/>
+                    <oid value="6080" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="6084" type="Collection::PersistentItem::Effect::Object">
+        <uniqueId value="{e5bfb571-98cf-4251-a3b3-eeccb0e5af97}" type="String"/>
+        <item value="6080" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="category_blur" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Effects" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="6080" type="Effect::MotionBlur">
+        <BaseOfObject objectId="6080" type="Effect::VideoEffect">
+            <BaseOfObject objectId="6080" type="Effect::Object">
+                <id value="95743761-e5fa-4bc7-9553-30450ad0bae7" type="String"/>
+                <tag value="MotionBlur" type="String"/>
+                <uniqueId value="95743761-e5fa-4bc7-9553-30450ad0bae7" type="String"/>
+                <description value="Desc MotionBlur" type="String"/>
+                <intensity value="0.8" type="double" binaryData="P+mZmZmZmZo="/>
+            </BaseOfObject>
+        </BaseOfObject>
+    </RootObject>
+    <RootRef value="6084" type="ObjectRef"/>
+</Archive>

@@ -1,0 +1,15 @@
+(player (name Marcus) (sname Rashford) (age 23) (fc MU))
+(player (name Kylian) (sname Mbappe) (age 22) (fc PSG))
+(player (name Zlatan) (sname Ibragimovich) (age 39) (fc Milan))
+(player (name Paul) (sname Pogba) (age 27) (fc MU))
+(player (name Aleksey) (sname Miranchuk) (age 25) (fc Atalanta))
+(player (name Anton) (sname Miranchuk) (age 25) (fc Lokomotiv))
+(player (name Karim) (sname Benzema) (age 33) (fc RM))
+(player (name Viera) (sname Marcelo) (age 32) (fc RM))
+(player (name Vitaliy) (sname Lisakovich) (age 23) (fc Lokomotiv))
+(player (name Aleksandr) (sname Golovin) (age 24) (fc Monako))
+
+
+(load-facts "D:/PSU/3k2s/IIS/Lab1/deftemplate.CLP")
+
+(load-facts "D:/PSU/3k2s/IIS/Lab1/deffacts.CLP")

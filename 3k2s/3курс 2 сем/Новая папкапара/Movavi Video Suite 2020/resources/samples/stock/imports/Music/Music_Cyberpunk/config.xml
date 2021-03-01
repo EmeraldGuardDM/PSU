@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Archive>
+    <RootObject objectId="4651" type="Predeclarator">
+        <predeclarations size="2" type="Array">
+            <Item index="1" type="Item">
+                <Data objectId="4653" type="Predeclare">
+                    <typeName value="Collection::PersistentItem::Import::Object" type="String"/>
+                    <oid value="4649" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+            <Item index="2" type="Item">
+                <Data objectId="4655" type="Predeclare">
+                    <typeName value="Import::Object" type="String"/>
+                    <oid value="4645" type="ObjectRef"/>
+                    <poid value="0" type="ObjectRef"/>
+                    <refs size="0" type="Array"/>
+                </Data>
+            </Item>
+        </predeclarations>
+    </RootObject>
+    <RootObject objectId="4649" type="Collection::PersistentItem::Import::Object">
+        <uniqueId value="{9558886a-a779-40e5-9744-5c752b598cf9}" type="String"/>
+        <item value="4645" type="ObjectRef"/>
+        <preview ref="images/preview.png" type="ImageRef"/>
+        <categories size="1" type="Array">
+            <Item index="1" type="Item">
+                <Data value="sample_music" type="String"/>
+            </Item>
+        </categories>
+        <collectionId value="Imports" type="String"/>
+        <customStrings size="0" type="Array"/>
+    </RootObject>
+    <RootObject objectId="4645" type="Import::Object">
+        <tag value="Music_Cyberpunk" type="String"/>
+        <description value="Desc Cyberpunk" type="String"/>
+        <descriptionUrl value="" type="String"/>
+        <location value="#DOWNLOADABLE_PATH#/Music Library/Cyberpunk.mp3" type="String"/>
+        <remoteUrl value="http://files.movavi.com/dl/stock/music_library/Cyberpunk.mp3" type="String"/>
+        <kind value="1" type="int32_t"/>
+        <category value="" type="String"/>
+    </RootObject>
+    <RootRef value="4649" type="ObjectRef"/>
+</Archive>

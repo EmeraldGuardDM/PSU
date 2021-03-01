@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+    <project file="config.xml" version="6"/>
+    <additionals>
+        <uuid>{a7c2e5b3-955f-4c12-936e-7eb3feb809b0}</uuid>
+        <name>Color_mix-alias</name>
+        <size>67131</size>
+        <previewPath>preview.png</previewPath>
+    </additionals>
+</versions>
