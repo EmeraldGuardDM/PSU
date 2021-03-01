@@ -1,7 +1,0 @@
-CLIPS> (deftemplate human (slot name))
-CLIPS> (deftemplate animal (slot type) (slot color))
-CLIPS> (deftemplate music (slot style) (slot bpm) (slot Artist))
-CLIPS> (deftemplate computer (slot cpu) (slot ram))
-CLIPS> (deftemplate car (slot color) (slot max-speed))
-
-CLIPS> (deftemplate FootballPlayer (slot name) (slot sName) (slot age) (slot FC))
