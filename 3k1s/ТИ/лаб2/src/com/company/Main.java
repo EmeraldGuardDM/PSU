@@ -9,7 +9,7 @@ public class Main {
 	// write your code here
         String text = "Hello World";
         System.out.println("Исходный текст : " +  text);
-        MessageDigest sha1 = MessageDigest.getInstance("SHA-1");
+        MessageDigest sha1 = MessageDigest.getInstance("MD5");
         byte[] bytes = sha1.digest(text.getBytes());
         StringBuilder stringBuilder = new StringBuilder();
         for (byte b : bytes){
