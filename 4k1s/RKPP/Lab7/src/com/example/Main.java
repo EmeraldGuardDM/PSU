@@ -1,5 +1,10 @@
 package com.example;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.Stack;
 
 public class Main {
@@ -23,6 +28,31 @@ public class Main {
         sStack.addAll(tmpStack);
     }
 
+    static void writeStream(Stack<Integer> stack, String filePath){
+        String str = "";
+        try (FileOutputStream fos = new FileOutputStream(filePath)){
+            while(!stack.empty()){
+                str += stack.pop();
+            }
+            fos.write(str.getBytes(StandardCharsets.UTF_8));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    static void readStream(Stack<Integer> stack, String filePath){
+        try (FileInputStream fin = new FileInputStream(filePath)) {
+            int i = -1;
+            while ((i = fin.read()) != -1) {
+                stack.push(i);
+                System.out.print((char)i);
+            }
+        } catch (IOException ex) {
+
+            System.out.println(ex.getMessage());
+        }
+    }
+
     static void firstTask() {
         Stack<Integer> fStack = new Stack<Integer>();
         Stack<Integer> sStack = new Stack<Integer>();
@@ -37,9 +67,12 @@ public class Main {
         swapStacks(fStack, sStack);
 
         printStacks(fStack, sStack);
+
+        readStream(fStack, "fStack.txt");
+        writeStream(fStack, "fStack.txt");
     }
 
     static void secondTask(){
-        
+
     }
 }
