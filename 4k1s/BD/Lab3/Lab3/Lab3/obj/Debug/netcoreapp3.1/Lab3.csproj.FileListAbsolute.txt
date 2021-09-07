@@ -1,0 +1,15 @@
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\bin\Debug\netcoreapp3.1\Lab3.exe
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\bin\Debug\netcoreapp3.1\Lab3.deps.json
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\bin\Debug\netcoreapp3.1\Lab3.runtimeconfig.json
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\bin\Debug\netcoreapp3.1\Lab3.runtimeconfig.dev.json
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\bin\Debug\netcoreapp3.1\Lab3.dll
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\bin\Debug\netcoreapp3.1\Lab3.pdb
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.csprojAssemblyReference.cache
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.Form1.resources
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.csproj.GenerateResource.cache
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.AssemblyInfoInputs.cache
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.AssemblyInfo.cs
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.csproj.CoreCompileInputs.cache
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.dll
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.pdb
+D:\PSU\4k1s\BD\Lab3\Lab3\Lab3\obj\Debug\netcoreapp3.1\Lab3.genruntimeconfig.cache
