@@ -68,11 +68,7 @@ public class Main {
 
         printStacks(fStack, sStack);
 
-        readStream(fStack, "fStack.txt");
         writeStream(fStack, "fStack.txt");
-    }
-
-    static void secondTask(){
-
+        readStream(fStack, "fStack.txt");
     }
 }
