@@ -52,7 +52,7 @@ public class Main {
 
         System.out.println("\nOriginal array :");
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
+            for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = (int) Math.round((Math.random() * 100) - 50);
                 System.out.print(array[i][j] + "\t");
             }
@@ -62,7 +62,7 @@ public class Main {
         int minI = 0, minJ = 0, maxI = 0, maxJ = 0;
 
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
+            for (int j = 0; j < array[i].length; j++) {
                 if(array[minI][minJ] > array[i][j]){
                     minI = i;
                     minJ = j;
@@ -82,7 +82,7 @@ public class Main {
 
         System.out.println("\nMixed array :");
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
+            for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j] + "\t");
             }
             System.out.println();
