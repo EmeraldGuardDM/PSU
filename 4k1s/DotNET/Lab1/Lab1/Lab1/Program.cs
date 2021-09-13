@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Lab1
 {
@@ -7,7 +8,7 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            secondTask();
+            thirdTask();
         }
 
         static void firstTask()
@@ -82,7 +83,14 @@ namespace Lab1
 
         static void thirdTask()
         {
+            string str = "dfg dfgd d4 5 5 5- fgh 2-56-56-59 fgh 2598746  fdgf 444589784566 gfh 8 999 999 4568 fdgh ";
+            PhoneNumberGrabber grabber = new PhoneNumberGrabber(str);
+            string[] arr = grabber.GetPhoneNumbers();
 
+            foreach (var s in arr)
+            {
+                Console.WriteLine(s);
+            }
         }
     }
 }
