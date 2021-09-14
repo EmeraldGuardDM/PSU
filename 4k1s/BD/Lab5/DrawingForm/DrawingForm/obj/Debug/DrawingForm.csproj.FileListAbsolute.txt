@@ -1,0 +1,10 @@
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\bin\Debug\DrawingForm.exe.config
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\bin\Debug\DrawingForm.exe
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\bin\Debug\DrawingForm.pdb
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\obj\Debug\DrawingForm.csprojAssemblyReference.cache
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\obj\Debug\DrawingForm.Form1.resources
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\obj\Debug\DrawingForm.Properties.Resources.resources
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\obj\Debug\DrawingForm.csproj.GenerateResource.cache
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\obj\Debug\DrawingForm.csproj.CoreCompileInputs.cache
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\obj\Debug\DrawingForm.exe
+D:\ПГУ\4к1с\17IT_COURSE_4-master\BD\Laba_5\DrawingForm\DrawingForm\obj\Debug\DrawingForm.pdb
