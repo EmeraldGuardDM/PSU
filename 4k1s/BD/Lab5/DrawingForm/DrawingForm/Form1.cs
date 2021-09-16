@@ -644,6 +644,12 @@ namespace DrawingForm
             verticalShadingToolStripMenuItem.CheckState = CheckState.Unchecked;
             horizontalShadingToolStripMenuItem.CheckState = CheckState.Unchecked;
         }
+
+        private void figureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void verticalFillClick(object sender, EventArgs e)
         {
             solidFillToolStripMenuItem.CheckState = CheckState.Unchecked;

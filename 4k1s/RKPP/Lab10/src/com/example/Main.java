@@ -57,7 +57,7 @@ public class Main {
             speedPlus.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent actionEvent) {
-                    int currentSpeed = ballPitPane.getSpeed() + 2;
+                    int currentSpeed = ballPitPane.getSpeed() * ballPitPane.getSpeed();
                     System.out.println(currentSpeed);
                     ballPitPane.setSpeed(currentSpeed);
                 }
@@ -66,11 +66,12 @@ public class Main {
                 @Override
                 public void actionPerformed(ActionEvent actionEvent) {
                     int currentSpeed = ballPitPane.getSpeed() - 2;
-                    System.out.println(currentSpeed);
-                    if (currentSpeed <= 0) {
+                    if (currentSpeed < 0) {
                         ballPitPane.setSpeed(0);
+                        System.out.println(0);
                     } else {
                         ballPitPane.setSpeed(currentSpeed);
+                        System.out.println(currentSpeed);
                     }
                 }
             });

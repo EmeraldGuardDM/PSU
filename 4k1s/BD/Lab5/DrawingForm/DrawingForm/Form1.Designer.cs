@@ -103,6 +103,7 @@
             this.figureToolStripMenuItem.Name = "figureToolStripMenuItem";
             this.figureToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.figureToolStripMenuItem.Text = "Фигура";
+            this.figureToolStripMenuItem.Click += new System.EventHandler(this.figureToolStripMenuItem_Click);
             // 
             // squareToolStripMenuItem
             // 
@@ -185,21 +186,21 @@
             // redToolStripMenuItem
             // 
             this.redToolStripMenuItem.Name = "redToolStripMenuItem";
-            this.redToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.redToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
             this.redToolStripMenuItem.Text = "Красный";
             this.redToolStripMenuItem.Click += new System.EventHandler(this.RedToolClick);
             // 
             // greenToolStripMenuItem
             // 
             this.greenToolStripMenuItem.Name = "greenToolStripMenuItem";
-            this.greenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.greenToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
             this.greenToolStripMenuItem.Text = "Зелёный";
             this.greenToolStripMenuItem.Click += new System.EventHandler(this.GreenToolClick);
             // 
             // blueToolStripMenuItem
             // 
             this.blueToolStripMenuItem.Name = "blueToolStripMenuItem";
-            this.blueToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.blueToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
             this.blueToolStripMenuItem.Text = "Синий";
             this.blueToolStripMenuItem.Click += new System.EventHandler(this.BlueToolClick);
             // 
