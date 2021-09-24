@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Lab4</title>
+  <link rel="stylesheet" href="lab4.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <p><img id="largeImg" src="photos/deebo.jpg" alt="Large image"></p>
+
+  <ul id="thumbs">
+    <li>
+      <a href="photos/Eazy-E.jpg" title="Image 2"><img src="photos/Eazy-E-small.jpg"></a>
+    </li>
+    <li>
+      <a href="photos/ninja.jpg" title="Image 3"><img src="photos/ninja-small.jpg"></a>
+    </li>
+    <li>
+      <a href="photos/unnamed.jpg" title="Image 4"><img src="photos/unnamed-small.jpg"></a>
+    </li>
+    <li>
+      <a href="photos/deebo.jpg" title="Image 5"><img src="photos/deebo-small.jpg"></a>
+    </li>
+  </ul>
+
+  <script>
+    thumbs.onclick = function(event) {
+      let thumbnail = event.target.closest('a');
+
+      if (!thumbnail) return;
+      showThumbnail(thumbnail.href, thumbnail.title);
+      event.preventDefault();
+    }
+
+    function showThumbnail(href, title) {
+      largeImg.src = href;
+      largeImg.alt = title;
+    }
+  </script>
+
+</body>
+</html>

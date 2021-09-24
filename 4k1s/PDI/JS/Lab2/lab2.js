@@ -1,7 +1,7 @@
 //1
 
 function checkAge(age) {
-    return age > 18 ? true : confirm('Родители разрешили?');
+    return age > 18 ? alert('Пользователю больше 18 лет') : confirm('Родители разрешили?');
 }
 
 //function checkAge(age) { 
