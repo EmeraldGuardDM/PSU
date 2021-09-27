@@ -11,7 +11,7 @@
       document.addEventListener('keydown', function(event) {
         pressed.add(event.code);
 
-        for (let code of codes) { // все ли клавиши из набора нажаты?
+        for (let code of codes) {
           if (!pressed.has(code)) {
             return;
           }

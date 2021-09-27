@@ -8,7 +8,18 @@ namespace Lab2
     {
         public string Name { get; set; }
 
-        public int Area { get; set; }
+        private int area;
+        public int Area
+        {
+            get { return area; }
+            set
+            {
+                if (value <= 0)
+                    throw new PersonException("Площадь не может быть меньше или равна 0", value);
+                else
+                    area = value;
+            }
+        }
 
         public Place(string name)
         {
@@ -22,6 +33,7 @@ namespace Lab2
         }
 
         public abstract void Display();
+
     }
 
     public interface IPlace 
@@ -52,13 +64,13 @@ namespace Lab2
             Console.WriteLine($"{Name} находится на континенте {Continent}");
         }
 
-        public override void AllInfo()
+        public void AllInfo()
         {
-            Console.WriteLine($"{Name} находится на континенте {Continent}");
+            Console.WriteLine($"Name : {Name} \t Area : {Area} \t Continent : {Continent} \t Form of goverment : {FormOfGovernment}\n");
         }
     }
 
-    class City : Place
+    class City : Place, IPlace
     {
         public string Country { get; set; }
 
@@ -77,6 +89,21 @@ namespace Lab2
         public override void Display()
         {
             Console.WriteLine($"{Name} находится в госудрастве {Country}");
+        }
+
+        public void AllInfo()
+        {
+            Console.WriteLine($"Name : {Name} \t Area : {Area} \t Country : {Country}");
+        }
+    }
+
+    class PersonException : ArgumentException
+    {
+        public int Value { get; }
+        public PersonException(string message, int val)
+            : base(message)
+        {
+            Value = val;
         }
     }
 }
