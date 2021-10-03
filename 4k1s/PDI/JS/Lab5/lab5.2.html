@@ -2,34 +2,41 @@
 <html>
 
 <head>
-  <style>
-    #train {
-      position: relative;
-      cursor: pointer;
-    }
-  </style>
+    <style>
+        #train {
+            position: relative;
+            cursor: pointer;
+        }
+
+    </style>
 </head>
 
 <body>
 
-  <img id="train" src="https://js.cx/clipart/train.gif">
+    <img id="train" src="https://js.cx/clipart/train.gif">
 
+    <script>
+        train.onclick = function() {
+            let start = Date.now();
 
-  <script>
-    train.onclick = function() {
-      let start = Date.now();
+            let timer = setInterval(function() {
+                let timePassed = Date.now() - start;
 
-      let timer = setInterval(function() {
-        let timePassed = Date.now() - start;
+                train.style.left = timePassed / 5 + 'px';
 
-        train.style.left = timePassed / 5 + 'px';
+                if (timePassed > 2000) clearInterval(timer);
 
-        if (timePassed > 2000) clearInterval(timer);
+            }, 20);
+        }
 
-      }, 20);
-    }
-  </script>
+        let tr = document.getElementById('train');
+        for (var i = 0; i < 4; i++) {
+            setTimeout(function() {
+                tr.click();
+            }, i * 2000)
+        }
 
+    </script>
 
 </body>
 
