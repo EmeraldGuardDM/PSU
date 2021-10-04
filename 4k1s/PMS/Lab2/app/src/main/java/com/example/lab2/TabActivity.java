@@ -50,7 +50,7 @@ public class TabActivity extends FragmentActivity implements OnMapReadyCallback,
         tabSpec.setContent(R.id.tab2);
         tabSpec.setIndicator("2 Tab");
         tabHost.addTab(tabSpec);
-        webView.loadUrl("https://www.google.com/");
+        webView.loadUrl("https://github.com/NikitaYakovlev17");
 
         tabHost.setCurrentTabByTag("tag1");
     }
