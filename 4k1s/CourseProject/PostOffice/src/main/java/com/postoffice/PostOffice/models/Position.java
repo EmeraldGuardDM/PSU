@@ -2,10 +2,8 @@ package com.postoffice.PostOffice.models;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -17,7 +15,13 @@ import javax.persistence.Id;
 public class Position {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "salary")
     private int salary;
+
+    @OneToMany(mappedBy="position")
+    private Set<Employee> employees;
 }

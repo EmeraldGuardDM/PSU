@@ -2,10 +2,8 @@ package com.postoffice.PostOffice.models;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -17,7 +15,15 @@ import javax.persistence.Id;
 public class House {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+    @Column(name = "address")
     private String address;
-    private int region_id;
+
+    @ManyToOne
+    @JoinColumn(name="region_id", nullable=false)
+    private Region region;
+
+    @OneToMany(mappedBy="house")
+    private Set<Follower> followers;
 }

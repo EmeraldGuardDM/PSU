@@ -2,10 +2,8 @@ package com.postoffice.PostOffice.models;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -17,7 +15,15 @@ import javax.persistence.Id;
 public class Publication {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+    @Column(name = "name")
     private String name;
-    private int publishing_house_id;
+
+    @ManyToOne
+    @JoinColumn(name="publishing_house_id", nullable=false)
+    private PublishingHouse publishingHouse;
+
+    @OneToMany(mappedBy="publication")
+    private Set<Release> releases;
 }

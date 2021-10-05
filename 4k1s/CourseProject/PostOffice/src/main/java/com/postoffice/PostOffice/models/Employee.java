@@ -2,10 +2,7 @@ package com.postoffice.PostOffice.models;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Getter
 @Setter
@@ -17,12 +14,28 @@ import javax.persistence.Id;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+    @Column(name = "first_name")
     private String first_name;
+    @Column(name = "last_name")
     private String last_name;
+    @Column(name = "middle_name")
     private String middle_name;
+    @Column(name = "email")
     private String email;
+    @Column(name = "phone")
     private String phone;
-    private int position_id;
-    private int post_office_id;
+
+    @ManyToOne
+    @JoinColumn(name="position_id", nullable=false)
+    private Position position;
+
+    @ManyToOne
+    @JoinColumn(name="post_office_id", nullable=false)
+    private PostOffice postOffice;
+
+    @ManyToOne
+    @JoinColumn(name="region_id", nullable=false)
+    private Region region;
 }

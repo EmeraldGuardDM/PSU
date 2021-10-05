@@ -2,10 +2,8 @@ package com.postoffice.PostOffice.models;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -17,9 +15,21 @@ import javax.persistence.Id;
 public class Release {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+    @Column(name = "price")
     private int price;
+    @Column(name = "count")
     private int count;
-    private int publication_id;
-    private int post_office_id;
+
+    @ManyToOne
+    @JoinColumn(name="publication_id", nullable=false)
+    private Publication publication;
+
+    @ManyToOne
+    @JoinColumn(name="post_office_id", nullable=false)
+    private PostOffice postOffice;
+
+    @OneToMany(mappedBy="release")
+    private Set<Subscription> subscriptions;
 }
